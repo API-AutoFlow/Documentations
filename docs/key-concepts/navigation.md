@@ -16,7 +16,7 @@ Tabs to navigate around the product.
 ## **[B]** Solution Canvas
 Multiple flows are made to create a solution. To create a flow, simply drag and drop [actions](https://docs.apiautoflow.com/docs/actions) from **[D]**  to the canvas. The details of the actions are available later in the document
 
-## **[B]** Action Setting
+## **[C]** Action Setting
 The setting pane for the selected action. To apply data to the action, simply drag and drop the data from **[E]**  to the action property. The details about [data simulation and mock data](https://docs.apiautoflow.com/docs/actions/key-concepts/data-simulator) are available later in the document
 
 ## **[D]** Action, Data Simulation
