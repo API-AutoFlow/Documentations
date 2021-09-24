@@ -4,7 +4,7 @@ title: forEach
 parent: Iteration
 grand_parent: Actions
 ---
-#Iteration forEach
+# Iteration forEach
 forEach iterates over the array and apply the values to the actions (inside the iteration).
 
 ## Properties
