@@ -6,9 +6,16 @@ grand_parent: Actions
 ---
 # Try
 
-Be the first to write content for this page.
+Try and/or Retry the "do" flow with rescue and if fail, perform "catch" flow.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+retry: Number of retries if flow fails
+retry-delay: Number or String Delay between retries
+```
 
+### Example
+Retry delay can be configured to be fixed or to be dynamic.
 
-![Be the First](/assets/images/blank-page.gif)
+1. Configure retry-delay as a number, and a fixed delay will be introduced between retries
+2. Configure retry-delay as a string, and the string will be evaluated to produce an integer delay value. The expression may make use of a variable "retry_count". e.g. ```retry_count * 1000```
