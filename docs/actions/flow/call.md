@@ -5,10 +5,17 @@ parent: Flow
 grand_parent: Actions
 ---
 # Call
+alls a configured flow.
 
-Be the first to write content for this page.
+## Properties
+```yaml
+flow-id: Select a configured flow
+input: Input data for selected flow
+async: Optionally execute flow asynchronously
+async-timeout: Timeout duration of asynchronous flow execution
+```
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
-
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+Output-location: Location to store the output data
+```
