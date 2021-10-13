@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Switch Condition
+title: Switch
 parent: Conditional
 grand_parent: Actions
 ---
-# Switch Condition
+# Switch
 Like the switch statements in a programming language, a switch condition checks for matching value.
 
 ## Properties
