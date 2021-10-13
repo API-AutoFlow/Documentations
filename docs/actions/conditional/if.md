@@ -1,10 +1,10 @@
 ---
 layout: default
-title: IF Condition
+title: IF
 parent: Conditional
 grand_parent: Actions
 ---
-# IF Condition
+# IF
 If condition in API AutoFlow works similar to the if statement in programming languages.
 
 1. First start by setting condition properties
