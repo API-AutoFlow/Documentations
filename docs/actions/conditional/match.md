@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Match Condition
+title: Match
 parent: Conditional
 grand_parent: Actions
 ---
-# Match Condition
+# Match
 A match condition checks if a specified condition is true.
 
 ## Properties
