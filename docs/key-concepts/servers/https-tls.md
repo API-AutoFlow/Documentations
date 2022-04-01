@@ -21,3 +21,9 @@ Simply upload the certificate in the `Files` section and refer to the certs in t
 
 
 ![Checkbox TLS](/assets/images/https-tls-2.png)
+
+For example
+Keyfile: www_interactor_com.key
+certifle: www_interactor_com.crt
+cacertfile: CERTUM_TRUSTED_NETWORK_CA.crt
+dhfile: SSL_COM_ROOT_CERTIFICATION_AUTHORITY_RSA.crt
