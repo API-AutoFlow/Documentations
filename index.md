@@ -74,4 +74,4 @@ or email your proposed changes to it@interactor.com.
 </ul>
 
 
-API AutoFlow Documentation is &copy; 2014-{{ "now" | date: "%Y" }} by [Interactor](https://www.interactor.com).
+API AutoFlow Documentation is &copy; 2022-{{ "now" | date: "%Y" }} by [Interactor](https://www.interactor.com).
