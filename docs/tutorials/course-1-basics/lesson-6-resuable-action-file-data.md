@@ -7,7 +7,14 @@ permalink: /docs/tutorials/course-1-basics/lesson-6-reusable-custom-actions
 
 ### Course 1: Getting started with API AutoFlow
 
-# Lesson 6: Reusable Custom Actions
+# Lesson 6: Reusable Custom Actions, Files, and Data.  Cut and Paste Configurations
+
+
+
+
+
+
+## Cut and Paste Configuration
 
 
 Content will be updated soon.

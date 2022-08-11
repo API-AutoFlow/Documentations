@@ -6,7 +6,6 @@ has_children: true
 permalink: /docs/tutorials
 ---
 
-
 ## Prerequisites:  Things you need to know before using API AutoFlow
 
 | Lesson        | Title           | Link  |
