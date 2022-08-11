@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 4
-has_children: true
+parent: Prerequisites
 permalink: /docs/tutorials/prerequisites/lesson-2-understanding-api-documentations
 ---
 ### Prerequisites: Things you need to know before using API AutoFlow

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 4
-has_children: true
+parent: Prerequisites
 permalink: /docs/tutorials/prerequisites/lesson-4-types-of-data-used-in-api
 ---
 ### Prerequisites: Things you need to know before using API AutoFlow

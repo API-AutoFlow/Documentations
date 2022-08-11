@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 2
-has_children: true
+parent: Course 1 Basics
 permalink: /docs/tutorials/course-1-basics/lesson-5-learn-how-to-work-with-databases-and-apis
 ---
 

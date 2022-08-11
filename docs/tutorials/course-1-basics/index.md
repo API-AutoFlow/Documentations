@@ -2,7 +2,7 @@
 layout: default
 title: Tutorials
 nav_order: 2
-has_children: true
+parent: Course 1 Basics
 permalink: /docs/tutorials/course-1-basics
 ---
 {: .fs-6 .fw-300 }

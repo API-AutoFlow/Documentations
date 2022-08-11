@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 3
-has_children: true
+parent: Course 2 Creating Solutions
 permalink: /docs/tutorials/course-2-creating-solutions/lesson-3-templates-for-every-use-case
 ---
 ### Course 2: Creating solutions for your project

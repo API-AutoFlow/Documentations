@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 1
-has_children: true
+parent: Prerequisites
 permalink: /docs/tutorials/prerequisites
 ---
 {: .fs-6 .fw-300 }

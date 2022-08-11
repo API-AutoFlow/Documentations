@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 3
-has_children: true
+parent: Course 2 Creating Solutions
 permalink: /docs/tutorials/course-2-creating-solutions/lesson-1-enable-signup-and-login
 ---
 ### Course 2: Creating solutions for your project
