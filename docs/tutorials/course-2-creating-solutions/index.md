@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Tutorials
-parent: Course 2 Creating Solutions
+title: Course 2 Creating Solutions
+parent: Tutorials
+has_children: true
 permalink: /docs/tutorials/course-2-creating-solutions
 ---
 {: .fs-6 .fw-300 }
