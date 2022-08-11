@@ -5,12 +5,9 @@ parent: String
 grand_parent: Actions
 ---
 # String Split At New Line
-Splits a string into two at the specified offset. When the offset is given is negative, the location is counted from the end of the string.
+Splits a string at the **new line** into set number of **parts**. 
 
-New line에 split이 되어 Array의 element들이 만들어 집니다.
-보내 주신 예시를 보면 string에 abc abc abc를 넣으셨는데, new line이 사라집니다. 
-File등에서 읽어 온 data에 바로 적용해야 합니다.
-
+Note: Pasting text directly into the property __string__ removes the "new line".  To test the action, use the sample configuration below or [read the text directly from the file](https://docs.apiautoflow.com/docs/actions/file/read).
 
 
 ## Properties
