@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 1
+nav_order: 6
 has_children: true
 permalink: /docs/tutorials
 ---
-{: .fs-6 .fw-300 }
 
 
 ## Prerequisites:  Things you need to know before using API AutoFlow
@@ -69,4 +68,6 @@ permalink: /docs/tutorials
 | Uri | [Open Tutorial](https://docs.apiautoflow.com/docs/actions/uri) |
 
 
+
+{: .fs-6 .fw-300 }
 
