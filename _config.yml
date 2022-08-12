@@ -19,7 +19,7 @@ description: The official documentation of API AutoFlow Interactor
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-theme: "just-the-docs"
+remote_theme: just-the-docs/just-the-docs
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"]
 
 # Regression tests
