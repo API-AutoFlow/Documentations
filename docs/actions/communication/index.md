@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Databases
+title: Communication
 parent: Actions
 has_children: true
-permalink: /docs/actions/database
+permalink: /docs/communication
 ---
 {: .fs-6 .fw-300 }
