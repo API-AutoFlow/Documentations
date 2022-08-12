@@ -46,7 +46,7 @@ Learn how to use API AutoFlow from the experts.
 
 
 <h6>Actions Reference</h6>
-<h1 style="margin-top:0">Get to know the actions</h1>
+<h2 style="margin-top:0">Get to know the actions</h2>
 
 
 | Title           | Link  |

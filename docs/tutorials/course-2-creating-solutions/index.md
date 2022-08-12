@@ -13,6 +13,6 @@ permalink: /docs/tutorials/course-2-creating-solutions
 
 | Lesson        | Title           | Link  |
 | ------------- |:-------------:| -----:|
-| Lesson 2.1  | Enable Sign Up and Login  |  |
-| Lesson 2.2  | Integrate Database  |  |
-| Lesson 2.3  | Templates for Every Use Case  |  |
+| Lesson 2.1  | Enable Sign Up and Login  | [Open Tutorial]({% link docs/tutorials/course-2-creating-solutions/lesson-1-enable-signup-and-login.md %}) |
+| Lesson 2.2  | Integrate Database  | [Open Tutorial]({% link docs/tutorials/course-2-creating-solutions/lesson-2-integrate-database.md %}) |
+| Lesson 2.3  | Templates for Every Use Case  | [Open Tutorial]({% link docs/tutorials/course-2-creating-solutions/lesson-3-templates-for-every-use-case.md %}) |

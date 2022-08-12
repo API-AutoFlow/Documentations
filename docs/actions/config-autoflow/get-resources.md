@@ -4,7 +4,8 @@ title: Get Resources
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Get Resources
+# Get Resources [ i ]
+**Install version only**
 
 Be the first to write content for this page.
 

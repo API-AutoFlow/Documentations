@@ -1,20 +1,3 @@
----
-layout: default
-title: Timer Delete [ i ]
-parent: Configure API Autoflow
-grand_parent: Actions
----
-# Timer Delete [ i ]
-**Install version only**
-
-Deletes a timer
-
-## Properties
-```yaml
-timer-id: Timer-id can be selected from drop down, or dynamically referenced by saving the timer-id at the time of creation.
-```
-
-```yaml
 {
   "$product": {
     "deployment_mode": "SOLO",
@@ -376,4 +359,3 @@ timer-id: Timer-id can be selected from drop down, or dynamically referenced by 
     }
   ]
 }
-```

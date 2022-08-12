@@ -11,7 +11,7 @@ Gets the configuration for a timer.
 
 ## Properties
 ```yaml
-timer-id: The name given to the timer
+timer-id: Timer-id can be selected from drop down, or dynamically referenced by saving the timer-id at the time of creation.
 ```
 
 ## Output

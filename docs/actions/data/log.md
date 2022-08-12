@@ -5,7 +5,8 @@ parent: Data
 grand_parent: Actions
 ---
 # Log Data
-Action to log the data at a given point in the flow.
+Action to log the data at a given point in the flow.  It leaves a log message that can be seen in the `Log pane` on the right hand side.
+The value is the log, and you can provide log level or log label.
 
 ## Properties
 ```yaml

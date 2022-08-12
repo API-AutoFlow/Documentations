@@ -9,12 +9,8 @@ permalink: /docs/tutorials/prerequisites/lesson-2-understanding-api-documentatio
 <h1 style="margin-top:0">Lesson 2: Understanding API Documentations</h1>
 
 
-Content will be updated soon.
+https://youtu.be/BZaM7vMn5ew
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
-
-
-![Be the First](/assets/images/blank-page.gif)
 
 
 {: .fs-6 .fw-300 }
