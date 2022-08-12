@@ -8,6 +8,8 @@ permalink: /docs/tutorials/course-1-basics/lesson-1-api-autoflow-basics
 <h6>Course 1: Getting started with API AutoFlow</h6>
 <h1 style="margin-top:0">Lesson 1: API AutoFlow Basics</h1>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DBaNoZF2KIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Lesson Outline
 
 * Go to Interactor website to access API AutoFlow

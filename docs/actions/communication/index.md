@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/communication
 ---
 # Communication
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4b-QaA8NTd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## TCP Actions
 You can configure TCP Client or TCP Server in API AutoFlow.

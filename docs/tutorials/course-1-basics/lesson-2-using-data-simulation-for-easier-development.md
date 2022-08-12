@@ -9,7 +9,7 @@ permalink: /docs/tutorials/course-1-basics/lesson-2-using-data-simulation-for-ea
 <h1 style="margin-top:0">Lesson 2: Using Data Simulation for Easier Development</h1>
 
 
-https://youtu.be/AVxwRDMhwg0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AVxwRDMhwg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 {: .fs-6 .fw-300 }
