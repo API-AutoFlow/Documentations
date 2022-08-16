@@ -65,7 +65,7 @@ No matter which option you choose, you can always customize your solution's flow
 
 ### Use an API AutoFlow template
 
-<div>
+<!-- <div>
   <a href="" style="width: 200px; height: 150px; border: 1px solid grey; margin: 2px; padding: 2px 5px; display: inline-block; text-align">
     <div style="height: 100%; width: 30px; display: inline-block; vertical-align: top">
       <img src="/assets/images/getting-started-index-solution.png" style="width:25px"/>
@@ -86,7 +86,7 @@ No matter which option you choose, you can always customize your solution's flow
       <div><span>no-code</span></div>
     </div>
   </a>
-</div>
+</div> -->
 
 The team here at Interactor are continuously making templates designed for specific use cases, like an CRM, a social media, a eCommerce, or a chatbot such as Slack replica. These templates are solutions that come pre-configured with the full stack scalable architecture including the `frontend`, `backend`, and `database / data source`. If you're still learning the API AutoFlow ropes, check out a template or two for inspiration—you can always modify it later to suit your own needs!
 
