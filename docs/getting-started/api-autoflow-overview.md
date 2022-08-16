@@ -28,7 +28,7 @@ Now you know what API AutoFlow can do, but you still might not know where to beg
 * A [solution](#whats-a-solution) is a collection of flows and related components.
 * A [flow](#whats-a-flow) is a dataflow that passes data from one action to another to achieve the intended result. A flow takes an input data, takes actions on the data, and outputs the resulting data.
 
-{% include in_line_banner.html url="../tutorial-video/index.md" button_name="Watch a training" message="! Get started faster with API AutoFlow" %}
+{% include in_line_banner.html url="../../tutorial-video/index.md" button_name="Watch a training" message="! Get started faster with API AutoFlow" %}
 
 When you first open up API AutoFlow, you'll see a bunch of colorful icons arranged into different groups. The groups are solutions, and the icons are flows.
 
