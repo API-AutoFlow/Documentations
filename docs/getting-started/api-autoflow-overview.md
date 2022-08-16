@@ -104,7 +104,7 @@ If you want more information on any of the templates, click on its card and you'
 
 Templates come with example records to make it easier to understand how they're set up. Once you've made your copy, you can delete those records whenever you want and instead fill in the template with your own information.
 
-### Explore API AutoFlow Marketplace
+<!-- ### Explore API AutoFlow Marketplace
 API AutoFlow enthusiasts from all over have made their own solutions, flows, and decided to share those flows with the rest of the world by publishing them on API AutoFlow Marketplace! Try browsing through API AutoFlow Marketplace for ideas and if you're feeling inspired, you make a copy of any solution on API AutoFlow Marketplace and customize it for your own needs.
 
 To get to API AutoFlow Marketplace, click on the Marketplace at the top of the Interactor.com website or search for Github repository with the topic **apiautoflow** [https://github.com/topics/apiautoflow](https://github.com/topics/apiautoflow).
@@ -117,7 +117,7 @@ To find out more about a flow, go ahead and click on one of the flow cards. This
 
 If someone's made a flow that you want to make a copy of, click the clone flow button to make your very own copy! (And maybe give the creator a ❤️ on their flow, if you're feeling so inclined.)
 
-Marketplace flows might or might not come prefilled with information. Once you've made your copy, you can delete any preexisting content whenever you want and instead fill in the template with your own information. And perhaps one day—maybe after finishing this guide—you'll be the one publishing your flows on API AutoFlow Marketplace for other users to copy on the Github.
+Marketplace flows might or might not come prefilled with information. Once you've made your copy, you can delete any preexisting content whenever you want and instead fill in the template with your own information. And perhaps one day—maybe after finishing this guide—you'll be the one publishing your flows on API AutoFlow Marketplace for other users to copy on the Github. -->
 
 ## Running your own API AutoFlow
 There are two way to access API AutoFlow
