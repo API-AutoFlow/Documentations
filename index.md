@@ -1,4 +1,14 @@
 ---
+sitemap: false
+permalink: /
+layout: forward
+target: /docs/getting-started
+---
+
+
+
+
+<!-- ---
 layout: default
 permalink: /
 ---
@@ -12,11 +22,5 @@ Welcome! We are excited that you want to learn API AutoFlow. This section contai
 In addition, you’ll also learn about the best practices for building applications.
 
 
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 } -->
 
-<!-- ---
-sitemap: false
-permalink: /
-layout: forward
-target: https://docs.apiautoflow.com/docs/getting-started
---- -->

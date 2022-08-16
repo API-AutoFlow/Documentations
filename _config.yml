@@ -63,8 +63,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Docs on GitHub":
-    - "//github.com/API-AutoFlow/Documentations"
+  # "Docs on GitHub":
+  #   - "//github.com/API-AutoFlow/Documentations"
+  "Interactor.com":
+    - "https://www.interactor.com/product/autoflow"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -80,7 +82,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2014-2021 Pulzze Systems, Inc (D.B.A Interactor)"
+footer_content: "Copyright &copy; 2014-2022 Pulzze Systems, Inc (D.B.A Interactor)"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

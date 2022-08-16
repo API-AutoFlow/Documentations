@@ -72,7 +72,8 @@
             {%- unless child.nav_exclude -%}
             <li class="nav-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
               {%- if child.has_children -%}
-                <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+                <!-- <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a> -->
+                  <div class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></div>
               {%- endif -%}
               <a href="{{ child.url | absolute_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
               {%- if child.has_children -%}
