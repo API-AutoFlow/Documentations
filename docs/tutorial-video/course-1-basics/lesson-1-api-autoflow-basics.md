@@ -63,8 +63,9 @@ Let’s create a Hello World! solution
 2. Create a HTTP server by clicking on the drop down
 3. Create an Endpoint by clicking on the same drop down and selecting the server just created
 4. From the right pane, drag and drop the dataset action from the data category.
+<br />
 Note: dataset action simply sets a value to the solution flow.
-5. In the settings for the action, enter Hello World! In the properties and in the output enter response | body
+5. In the settings for the action, enter Hello World! In the properties and in the output enter response > body
 
 
 
