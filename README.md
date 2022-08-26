@@ -30,3 +30,7 @@ All the pages are located in the docs folder
 3. Embrace revisions
 
 Remember, the goal of documentations is to help users who don't know about API AutoFlow find the information they need to successfully build their solution.
+
+jekyll serve
+
+bundle exec jekyll serve

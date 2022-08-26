@@ -6,7 +6,7 @@
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: $sidebar-color;
+  // background-color: $sidebar-color;
 
   @include mq(md) {
     flex-wrap: nowrap;
@@ -15,11 +15,13 @@
     height: 100%;
     flex-direction: column;
     border-right: $border $border-color;
-    align-items: flex-end;
+    // align-items: flex-end;
+    align-items: center;
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    // width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: 20rem;
     min-width: $nav-width;
   }
 }
@@ -27,14 +29,16 @@
 .main {
   @include mq(md) {
     position: relative;
-    max-width: $content-width;
+    // max-width: $content-width;
     margin-left: $nav-width-md;
   }
 
   @include mq(lg) {
-    margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
-    );
+    // margin-left: calc(
+    //   (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+    // );
+    margin-left: 20rem;
+    background-color: #F5F2EC;
   }
 }
 
@@ -139,9 +143,12 @@
 
 .site-button {
   display: flex;
-  height: 100%;
+  margin-top: 10%;
+  height: 60%;
   padding: $gutter-spacing-sm;
   align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 @include mq(md) {
@@ -150,21 +157,27 @@
   }
 }
 
+// .site-title:hover {
+//   background-image: linear-gradient(
+//     -90deg,
+//     rgba($feedback-color, 1) 0%,
+//     rgba($feedback-color, 0.8) 80%,
+//     rgba($feedback-color, 0) 100%
+//   );
+// }
 .site-title:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 80%,
-    rgba($feedback-color, 0) 100%
-  );
+  background-color: #F5F2EC;
 }
 
+// .site-button:hover {
+//   background-image: linear-gradient(
+//     -90deg,
+//     rgba($feedback-color, 1) 0%,
+//     rgba($feedback-color, 0.8) 100%
+//   );
+// }
 .site-button:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 100%
-  );
+  background-color: #F5F2EC;
 }
 
 // stylelint-disable selector-max-type
