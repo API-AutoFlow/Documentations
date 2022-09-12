@@ -6,7 +6,7 @@ grand_parent: External Actions
 ---
 
 # TCP Receive
-TCP Receive action receives data from a bound Socket to the response-target.
+TCP Send and Receive action sends data and waits to receive data back from a bound Socket to the response-target.
 
 ## Properties
 ```yaml

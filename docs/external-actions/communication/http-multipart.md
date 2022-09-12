@@ -5,11 +5,29 @@ parent: Communication
 grand_parent: External Actions
 ---
 
-# HTTP Multipart
+# Communication HTTP Multipart Request
 
-Be the first to write content for this page.
+Make HTTP multipart request.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+url: Address for the Request to be sent
+path: Path of the request. You can use "{variable-name}" syntax to create variable placeholders
+url-variables: variable url path values in an object of key value pairs
+type: type of HTTP request to use for sending form data
+multipart: list of part objects with keys
+type: form or file
+key: part key if of type form
+value: part value if of type form
+filepath: part filepath if of type file
+keyname: part keyname if of type file. Defaults to "uploaded_file"
+filename: part filename if of type file. Defaults to filename from basename of filepath
+header: Value to include in the header
+query: Query to the server
+timeout: Duration to make attempt
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

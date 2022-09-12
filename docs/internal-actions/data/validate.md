@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Data is Non Empty List
+title: Data Validate
 parent: Data
 grand_parent: Internal Actions
 ---
 # Data is Non Empty List
-Checks if Data is a `Non Empty List (Array)`. Outputs a boolean value.
+Validates data against a schema.
 
 ## Properties
 ```yaml
-Value: Location of the value to check
+data: data to validate
+schema: Schema definition to validate against
 ```
 
 ## Output

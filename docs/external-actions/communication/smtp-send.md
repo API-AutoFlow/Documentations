@@ -5,11 +5,28 @@ parent: Communication
 grand_parent: External Actions
 ---
 
-# SMTP Send
+# Communication SMTP Send
 
-Be the first to write content for this page.
+Send SMTP message (email).
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+from: Email from object with properties
+email: Email address of person sending SMTP message
+name: Name of person sending SMTP message
+to: Array of email to objects with properties
+email: Email address of person sending SMTP message
+name: Name of person sending SMTP message
+subject: Email subject text
+body: Email body
+smtp-server: SMTP server address
+username: SMTP server username to use
+password: SMTP server password to use
+tls: Select TLS options
+port: SMTP server port
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

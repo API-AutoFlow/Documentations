@@ -6,9 +6,16 @@ grand_parent: Internal Actions
 ---
 # Get Variable
 
-Be the first to write content for this page.
+Gets environment variable data.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+variable-id: Environment variable id
+path: If variable data is an object, path to the interested data within the object
+default: Default value to return if data is not available
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

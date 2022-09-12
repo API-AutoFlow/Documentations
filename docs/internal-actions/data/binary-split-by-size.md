@@ -6,9 +6,32 @@ grand_parent: Internal Actions
 ---
 # Binary Split by Size
 
-Be the first to write content for this page.
+Split binary data by size.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+value: The value to split
+size: Split by size
+```
 
+## Output
+```yaml
+output-location: Location to store the output data
+```
 
-![Be the First](/assets/images/blank-page.gif)
+## Example configuration
+
+```yaml
+value: ABCDE
+size: 2
+```
+
+## Example output
+
+```yaml
+[
+  "AB",
+  "CD",
+  "E"
+]
+```

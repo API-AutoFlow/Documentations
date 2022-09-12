@@ -5,11 +5,23 @@ parent: Communication
 grand_parent: External Actions
 ---
 
-# HTTP Form
+# Communication HTTP Form Request
 
-Be the first to write content for this page.
+Make HTTP form request.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+url: Address for the Request to be sent
+path: Path of the request. You can use "{variable-name}" syntax to create variable placeholders
+url-variables: variable url path values in an object of key value pairs
+type: type of HTTP request to use for sending form data
+form: form data in an object of key value pairs to send
+header: Value to include in the header
+query: Query to the server
+timeout: Duration to make attempt
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

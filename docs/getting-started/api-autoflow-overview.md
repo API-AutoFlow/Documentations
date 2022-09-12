@@ -6,13 +6,23 @@ nav_order: 1
 ---
 # Getting started: It's all about the solution.
 
+**You don't have to be proficient at coding. If you know the concept of `IF` conditions and `Loop` iteration, that all you need.**
+
 Welcome to API AutoFlow!
 
 Whether you're building your own social network, opening an eCommerce site, integrating APIs, or managing a company's API infrastructure, API AutoFlow helps you create and integrate anything you can imagine to create the solution that matters to you. You decide what your [solution](#whats-a-solution) has to do by build the perfect data and automation [flows](#whats-a-flow) for your needs.
 
 Unlike traditional no-code platforms that are made for the `frontend`, API AutoFlow gives you the power of a super-flexible `backend` to connect your services and design the perfect data [flows](#whats-a-flow) all in one place.
 
-### Where does API AutoFlow work in the overall Application Architecture?
+## Main points
+* A [solution](#whats-a-solution) is a collection of flows and related components.
+* A [flow](#whats-a-flow) is a dataflow that passes data from one action to another to achieve the intended result. A flow takes an input data, takes actions on the data, and outputs the resulting data.
+
+{% include in_line_banner.html url="../../tutorial-video" title="Quick Start with Free Training Videos" button_name="Watch a training" message="! Get started faster with API AutoFlow" %}
+
+When you first open up API AutoFlow, you'll see a bunch of colorful icons arranged into different groups. The groups are solutions, and the icons are flows.
+
+## Overall Application Architecture?
 API AutoFlow is the **application backend** that processes the data and performs automation logic.
 
 ![Application Architecture](/assets/images/getting-started-index-application-architecture.jpg)
@@ -24,15 +34,7 @@ _API AutoFlow is one of the few no-code platform available for backend_
 
 Now you know what API AutoFlow can do, but you still might not know where to begin so let's start with what you first see when you sign in to API AutoFlow.
 
-## Main points
-* A [solution](#whats-a-solution) is a collection of flows and related components.
-* A [flow](#whats-a-flow) is a dataflow that passes data from one action to another to achieve the intended result. A flow takes an input data, takes actions on the data, and outputs the resulting data.
-
-{% include in_line_banner.html url="../../tutorial-video/index.md" button_name="Watch a training" message="! Get started faster with API AutoFlow" %}
-
-When you first open up API AutoFlow, you'll see a bunch of colorful icons arranged into different groups. The groups are solutions, and the icons are flows.
-
-### What's a solution?
+## What's a solution?
 A solution is a collection of flows and related components. The founder of a startup business might want to build a quick MVP solution for investor pitch or customer feedback; an employee within a larger company might have its own solution that needs to integrate with customer legacy systems; a DevOps or operation team might have an automation built for collecting data and management the infrastructure.
 
 When you open up your API AutoFlow homepage, you can see all the flows for which you're a collaborator.
@@ -44,7 +46,7 @@ _An example API AutoFlow homepage, with several flows organized into custom solu
 For more information visit [solution]({% link docs/overview/definitions/solutions.md %}) details page
 
 
-### What's a flow?
+## What's a flow?
 Each of the horizontal line in a solution represents a flow. A flow—that's short for "dataflow"-passes data from one action to another to achieve the intended result. A flow takes an input data, takes actions on the data, and outputs the resulting data. A flow can be a data transformation ETL/ELT pipeline, an process automation, your product's integration addon, an entire application backend, or really, anything you can imagine!
 
 ![What's a flow?](/assets/images/getting-started-index-flow.png)
@@ -119,7 +121,7 @@ If someone's made a flow that you want to make a copy of, click the clone flow b
 
 Marketplace flows might or might not come prefilled with information. Once you've made your copy, you can delete any preexisting content whenever you want and instead fill in the template with your own information. And perhaps one day—maybe after finishing this guide—you'll be the one publishing your flows on API AutoFlow Marketplace for other users to copy on the Github. -->
 
-## Running your own API AutoFlow
+## Running API AutoFlow
 There are two way to access API AutoFlow
 
 * **SaaS (*Beta*)**: Limited functionality.  Go to [https://console.apiautoflow.com](https://console.apiautoflow.com) and register using your email
@@ -143,6 +145,8 @@ Lastly (but certainly not leastly), you can always create a solution from scratc
 
 ![Build a flow from scratch](/assets/images/getting-started-index-scratch.png)
 
-To make a solution from scratch, click the Add button, then select the HTTP server from Solution page.
+To make a solution from scratch, follow the training videos by pressing the link below or going to the `Training - Video` section on the left navigation.
+
+{% include in_line_banner.html url="../../tutorial-video" title="Quick Start with Free Training Videos" button_name="Watch a training" message="! Get started faster with API AutoFlow" %}
 
 {: .fs-6 .fw-300 }

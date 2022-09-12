@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 6 Reusable Custom Actions, Files, and Data.  Cut and Paste Configurations
+title: Lesson 7 Custom Features
 parent: Course 1 Getting Started
 grand_parent: Tutorials - Video
 published: false

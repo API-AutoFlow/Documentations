@@ -1,15 +1,28 @@
 ---
 layout: default
-title: HTTP File
+title: Communication HTTP File Request
 parent: Communication
 grand_parent: External Actions
 ---
 
-# HTTP File
+# Communication HTTP File Request
 
-Be the first to write content for this page.
+Make HTTP file request.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+url: Address for the Request to be sent
+path: Path of the request. You can use "{variable-name}" syntax to create variable placeholders
+url-variables: variable url path values in an object of key value pairs
+filepath: path of file to send
+keyname: form data name to use
+filename: form data filename to use
+header: Value to include in the header
+query: Query to the server
+timeout: Duration to make attempt
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

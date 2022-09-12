@@ -11,7 +11,6 @@ permalink: /docs/tutorial-video/course-1-basics
 
 | Lesson       | Title           | Link  |
 | ------------- |:-------------:| -----:|
-| Lesson 1.0  | Getting Started  | [Open Tutorial]({% link docs/tutorial-video/course-1-basics/index.md %}) |
-| Lesson 1.1  | API AutoFlow Basics  | [Open Tutorial]({% link docs/tutorial-video/course-1-basics/lesson-1-api-autoflow-basics.md %}) |
+| Lesson 1.0  | API AutoFlow Basics  | [Open Tutorial]({% link docs/tutorial-video/course-1-basics/lesson-1-api-autoflow-basics.md %}) |
 
 {: .fs-6 .fw-300 }

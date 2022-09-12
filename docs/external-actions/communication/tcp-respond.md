@@ -5,11 +5,16 @@ parent: Communication
 grand_parent: External Actions
 ---
 
-# TCP Respond
+# Communication TCP Respond
 
-Be the first to write content for this page.
+Only used in TCP server/connection receive endpoint flow. TCP Respond action sends data back on TCP connection.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+payload: Data to send
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

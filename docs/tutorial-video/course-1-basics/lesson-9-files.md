@@ -1,12 +1,22 @@
 ---
 layout: default
-title: Lesson 5 Learn How to Work with Databases and APIs
+title: Lesson 9 Files
 parent: Course 1 Getting Started
 grand_parent: Tutorials - Video
 published: false
 ---
 <h6>Course 1: Getting started with API AutoFlow</h6>
-<h1 style="margin-top:0">Lesson 5: Learn How to Work with Databases and APIs</h1>
+<h1 style="margin-top:0">Lesson 9: Storing data in a file</h1>
+
+
+## Cut and Paste Configuration
+
+
+
+
+## Download and Upload Configuration
+
+
 
 
 Content will be updated soon.

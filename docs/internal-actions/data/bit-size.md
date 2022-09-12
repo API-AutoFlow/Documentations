@@ -6,9 +6,14 @@ grand_parent: Internal Actions
 ---
 # Bit Size
 
-Be the first to write content for this page.
+Calculates number of bits in <em>value</em>. Outputs a number value.
 
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
+## Properties
+```yaml
+value: Location or value to calculate number of bits of
+```
 
-
-![Be the First](/assets/images/blank-page.gif)
+## Output
+```yaml
+output-location: Location to store the output data
+```

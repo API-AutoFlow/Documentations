@@ -5,11 +5,12 @@ parent: Communication
 grand_parent: External Actions
 ---
 
-# HTTP Respond
+# Communication HTTP Respond
+Respond to HTTP request. This will immediately respond to HTTP request and flow execution will not carry on after this action.
 
-Be the first to write content for this page.
-
-[Edit This Page]({{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}){: .btn .btn-primary}
-
-
-![Be the First](/assets/images/blank-page.gif)
+## Properties
+```yaml
+<li><strong>body</strong>: Response body</li>
+<li><strong>header</strong>: Response header object</li>
+<li><strong>status-code</strong>: Response status-code number</li>
+```

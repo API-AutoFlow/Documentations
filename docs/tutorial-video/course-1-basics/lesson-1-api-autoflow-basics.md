@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 1 API AutoFlow Basics
+title: Lesson 1 Basics
 parent: Course 1 Getting Started
 grand_parent: Tutorials - Video
 ---
@@ -11,64 +11,53 @@ grand_parent: Tutorials - Video
 
 ## Lesson Outline
 
-* Go to Interactor website to access API AutoFlow
-* Go through some of the definitions
-* Overall how to navigtate and use the product
-* And create a Hello World solution together 
+1. Go to Interactor website to access API AutoFlow
+2. Go through some of the definitions
 
-## Get API AutoFlow
-1. Go to www.interactor.com
-2. Click the download button from the Product > API AutoFlow page
+## Access API AutoFlow
+API AutoFlow is available as a SaaS (Beta) and on-premise downloadable.
 
-### Templates
-Based on the product you are building, you can select from the pre-made templates.
+### API AutoFlow SaaS
+![API AutoFlow SaaS Link](/assets/images/website-saas-link.png)
+
+1. Click on the SaaS link on the https://www.interactor.com/product/autoflow or go directly to https://console.apiautoflow.com
+2. Register using your corporate email address
+
+Note: Your ID becomes part of your URL.
+For example, for user with id John will be allocated a URL of **http://api.apilautoflow.com/john**
+
+### API AutoFlow On-premise Download
+![API AutoFlow SaaS Link](/assets/images/website-download-link.png)
+
+1. Click on the SaaS link on the https://www.interactor.com/product/autoflow or go directly to https://www.interactor.com/product/autoflow/download
+2. Select the version that matches your operating system
+3. Download and follow the instructions to install
 
 
-## Using API AutoFlow Cloud
-1. Click the Cloud button or go directly to console.apiautoflow.com
-2. Register.  You will receive an confirmation email
-Note: your ID becomes part of your URL endpoint
-For example, for user with id John will be allocated a URL of api.apilautoflow.com/john
+## Quick Start Using a Template
+Pre-build full-stack solution that you can use to quick start your development.  The solutions are under MIT license free to be customized for your use. If you don't find the solution you need in the list, contact sales@interactor.com and a customer success team will assist you.
 
-## Using API AutoFlow on-premise
-Follow the installation instructions on the website
+![API AutoFlow Template Page Link](/assets/images/website-template-link.png)
+
+Follow the instructions on each template to deploy in your environment. 
 
 —-------
 
 ## Definitions
-You can think of API AutoFlow as a factory that processes data.  If you think about it, that is what the backend is.
+The easiest way to understanding API AutoFlow is to use a _factory_ as a comparison.  That is because whether you are building an automation, ETL/ELT, or an APIs for your database and systems, it is all about how you want to work with the data.
 
-* Solution:  You can think it as a factory. The solution refers the entire backend
-* Flow:  You can think of it as a process line for the data.  
-* Actions: You can think of it as the workers who make changes to the raw materials
-* Server: You can think of this as the freigh receiving dock
-* Endpoint: You can think of this as the start of processing line
-* Data: You can think of this as the raw material
-* Simulation: You can think of it as the sample raw material
-* Flow Transaction Data: You can think of it as the raw material that passes through the process line.  As changes are made by * the actions, the flow transaction data would change as it goes down the flow.
+![Data processing factory](/assets/images/data-processing-factory.png)
 
-—-----------
+* __Solution__:  You can think it as the factory itself. The solution refers the entire backend
+* __Server__: You can think of this as the freight receiving dock
+* __Endpoint__: You can think of this as the start of processing line
+* __Flow__:  You can think of it as a process line for the data.  
+* __Actions__: You can think of it as the workers who make changes to the raw materials
+* __Data__: You can think of this as the raw material
+* __Simulation__: You can think of it as the sample raw material
+* __Flow Transaction Data__: You can think of it as the raw material that passes through the process line.  As changes are made by the actions, the flow transaction data would change as it goes down the flow.
 
-## How to use API AutoFlow
-API AutoFlow is divided into three panes.
-
-* **Navigation (Left)**:  Tabs to each sections. Components are created the sections to be used in the solution.
-* **Workspace (Center)**: Center is the workspace where most of the creation is done.
-* **Components (right)**: You drag things from the right pane and apply it to the workspace
-
-## How to make a solution
-Let’s create a Hello World! solution 
-
-1. Click on the Solution tab on the left navigation pane
-2. Create a HTTP server by clicking on the drop down
-3. Create an Endpoint by clicking on the same drop down and selecting the server just created
-4. From the right pane, drag and drop the dataset action from the data category.
-<br />
-Note: dataset action simply sets a value to the solution flow.
-5. In the settings for the action, enter Hello World! In the properties and in the output enter response > body
-
-
-
+[NEXT >> LESSON 2: Navigation and Hello World!](/docs/tutorial-video/course-1-basics/lesson-2-navigation-helloworld/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 {: .fs-6 .fw-300 }

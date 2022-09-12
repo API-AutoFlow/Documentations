@@ -1,21 +1,23 @@
 ---
 layout: default
-title: Get Schema Object
+title: Data Serialize
 parent: Data
 grand_parent: Internal Actions
 ---
-# Get Schema Object
-Gets binary schema structure object for a given `schema` and `target packet`
+# Data Serialize
+Serialize into binary data using a binary schema.
 
 ## Properties
 ```yaml
-Schema ID: Location or value of binary schema. Schema-id can be selected from drop down, or dynamically referenced by saving the Schema-id at the time of creation.
-Target: Location or value of target parcket within the binary schema
+Value: Location of the value to check
+schema-id: Binary Schema to use for serializing given value
+target: Target binary packet type to serialize against
+value: The value object to serialize with
 ```
 
 ## Output
 ```yaml
-output-location: Location to store the output data
+Output-location: Location to store the output data
 ```
 
 ## Example binary schema configuration
@@ -47,13 +49,13 @@ output-location: Location to store the output data
 }
 ```
 
-## Example binary schema object output
+## Example value
 ```yaml
 {
-  "status": "",
-  "value-object": {
-    "packet_length": "",
-    "packet_type": ""
-  }
+  "packet_length": "0004",
+  "packet_type": "TEST"
 }
 ```
+
+### Example serialized binary output
+`0004TEST`

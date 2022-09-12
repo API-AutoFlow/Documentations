@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Simulator
+title: Data Simulation
 parent: Definitions
 grand_parent: Overview
 has_children: true
@@ -8,7 +8,7 @@ permalink: /docs/internal-actions/key-concepts/data-simulator
 nav_order: 8
 ---
 
-# Data Simulator
+# Data Simulation
 Mock data is simulated or made-up data for the purpose of testing the solution during development. There are two types of Data Simulation in API AutoFlow.
 
 <details open markdown="block">
