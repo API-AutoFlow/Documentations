@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Redis [ i ]
-parent: Client
+title: Websocket
+parent: Servers
 grand_parent: Servers and Clients
 ---
-# Redis [ i ]
-**Install version only**
+# Websocket Server
 
 Be the first to write content for this page.
 

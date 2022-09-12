@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Kafka [ i ]
-parent: Client
+title: MQTT [ i ]
+parent: Clients
 grand_parent: Servers and Clients
 ---
-# Kafka [ i ]
+# MQTT [ i ]
 **Install version only**
 
 Be the first to write content for this page.

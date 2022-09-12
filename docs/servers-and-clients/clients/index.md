@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Client
+title: Clients
 parent: Servers and Clients
 has_children: true
 permalink: /docs/servers-and-clients/client

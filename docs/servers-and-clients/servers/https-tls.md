@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HTTPS TLS [ i ]
-parent: Server
+parent: Servers
 grand_parent: Servers and Clients
 ---
 

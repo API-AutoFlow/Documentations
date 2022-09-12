@@ -1,11 +1,10 @@
 ---
 layout: default
-title: AMQP [ i ]
-parent: Client
+title: SNMP
+parent: Servers
 grand_parent: Servers and Clients
 ---
-# AMQP [ i ]
-**Install version only**
+# SNMP Server
 
 Be the first to write content for this page.
 

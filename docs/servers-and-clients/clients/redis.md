@@ -1,10 +1,11 @@
 ---
 layout: default
-title: TCP Server
-parent: Server
+title: Redis [ i ]
+parent: Clients
 grand_parent: Servers and Clients
 ---
-# TCP Server
+# Redis [ i ]
+**Install version only**
 
 Be the first to write content for this page.
 

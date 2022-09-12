@@ -1,7 +1,7 @@
 ---
 layout: default
-title: HTTP Server
-parent: Server
+title: HTTP
+parent: Servers
 grand_parent: Servers and Clients
 ---
 # HTTP Server

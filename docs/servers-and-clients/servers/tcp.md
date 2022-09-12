@@ -1,11 +1,10 @@
 ---
 layout: default
-title: TCP [ i ]
-parent: Client
+title: TCP
+parent: Servers
 grand_parent: Servers and Clients
 ---
-# TCP [ i ]
-**Install version only**
+# TCP Server
 
 Be the first to write content for this page.
 
