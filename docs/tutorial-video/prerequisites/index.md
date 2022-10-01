@@ -5,6 +5,7 @@ parent: Tutorials - Video
 nav_order: 1
 has_children: true
 permalink: /docs/tutorial-video/prerequisites
+published: true
 ---
 {: .fs-6 .fw-300 }
 

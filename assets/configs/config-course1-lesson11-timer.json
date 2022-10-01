@@ -1,0 +1,142 @@
+{
+  "$product": {
+    "deployment_mode": "SOLO",
+    "name": "API AutoFlow",
+    "version": "3.0.2"
+  },
+  "Flow": [
+    {
+      "default-test": "9ec5e3ab-fdee-46fb-8bd8-1192df5289ba",
+      "flow": [
+        {
+          "$action": "communication/http-request",
+          "body": "",
+          "decode-body": true,
+          "header": {},
+          "method": "GET",
+          "mock-result": {
+            "body": "",
+            "header": {},
+            "status-code": 200
+          },
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "result"
+            ]
+          },
+          "path": "",
+          "query": {},
+          "timeout": 5000,
+          "url": "localhost:27836",
+          "url-variables": {},
+          "use-mock-result": true
+        }
+      ],
+      "id": "048194f1-f60d-48bd-a7d5-6a13bbd1e9f6"
+    },
+    {
+      "default-test": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "flow": [
+        {
+          "$action": "data/set",
+          "at-location": {
+            "__$afref__": "data",
+            "path": [
+              "response",
+              "body"
+            ]
+          },
+          "value": "Hello World!"
+        }
+      ],
+      "id": "0d147291-b5fa-4873-96d6-51b27c83e683"
+    }
+  ],
+  "Inbound": [
+    {
+      "groups": [],
+      "id": "77814030-562d-4a71-a308-a034a61a3df2",
+      "port": 27836,
+      "type": "http server"
+    }
+  ],
+  "InboundEndpoint": [
+    {
+      "decode-content": true,
+      "endpoint-type": "Basic",
+      "id": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "method": "ANY",
+      "path": "/",
+      "type": "endpoint"
+    }
+  ],
+  "ResourceInfo": [
+    {
+      "id": "048194f1-f60d-48bd-a7d5-6a13bbd1e9f6",
+      "parentId": "308b288f-aee0-4f76-bbd7-6851469c3fe8",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "0d147291-b5fa-4873-96d6-51b27c83e683",
+      "parentId": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "77814030-562d-4a71-a308-a034a61a3df2",
+      "parentId": null,
+      "resourceType": "Inbound",
+      "title": "Server"
+    },
+    {
+      "id": "308b288f-aee0-4f76-bbd7-6851469c3fe8",
+      "parentId": null,
+      "resourceType": "Timer",
+      "title": "Timer"
+    },
+    {
+      "id": "9ec5e3ab-fdee-46fb-8bd8-1192df5289ba",
+      "parentId": "048194f1-f60d-48bd-a7d5-6a13bbd1e9f6",
+      "resourceType": "Test",
+      "title": "default-test"
+    },
+    {
+      "id": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "parentId": "77814030-562d-4a71-a308-a034a61a3df2",
+      "resourceType": "InboundEndpoint",
+      "title": "Endpoint"
+    },
+    {
+      "id": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "parentId": "0d147291-b5fa-4873-96d6-51b27c83e683",
+      "resourceType": "Test",
+      "title": "default-test"
+    }
+  ],
+  "Test": [
+    {
+      "id": "9ec5e3ab-fdee-46fb-8bd8-1192df5289ba",
+      "value": {
+        "count": 1
+      }
+    },
+    {
+      "id": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "value": {
+        "body": "",
+        "header": {},
+        "path": {},
+        "path-string": "",
+        "query": {}
+      }
+    }
+  ],
+  "Timer": [
+    {
+      "error-cutoff": 0,
+      "id": "308b288f-aee0-4f76-bbd7-6851469c3fe8",
+      "interval": 5000,
+      "start-on-bootup": true
+    }
+  ]
+}

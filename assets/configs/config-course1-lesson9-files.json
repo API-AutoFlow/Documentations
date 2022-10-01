@@ -1,0 +1,108 @@
+{
+  "$product": {
+    "deployment_mode": "SOLO",
+    "name": "API AutoFlow",
+    "version": "3.0.2"
+  },
+  "File": [
+    {
+      "id": "b9eafe8c-e7fa-4d9a-957a-0896557748dd"
+    }
+  ],
+  "Flow": [
+    {
+      "default-test": "6d57a93c-7480-47c6-84d7-1351c8e40b91",
+      "flow": [
+        {
+          "$action": "file/read",
+          "file": "/Users/peterjung/Documents/autoflow/test.txt",
+          "mock-result": "",
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "result"
+            ]
+          },
+          "use-mock-result": false
+        },
+        {
+          "$action": "file/read",
+          "file": {
+            "__$afref__": "file",
+            "file-id": "b9eafe8c-e7fa-4d9a-957a-0896557748dd",
+            "use": "content"
+          },
+          "mock-result": "",
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "result_test_file"
+            ]
+          },
+          "use-mock-result": false
+        }
+      ],
+      "id": "e5da214b-999e-411b-b6d2-55f19ca493ea"
+    }
+  ],
+  "Inbound": [
+    {
+      "id": "87e679c3-4bb5-4cd6-8c92-b20f0a2a27db",
+      "port": 27836,
+      "type": "http server"
+    }
+  ],
+  "InboundEndpoint": [
+    {
+      "decode-content": true,
+      "endpoint-type": "Basic",
+      "id": "712be46d-11f1-4388-85e2-7661d710a3a4",
+      "method": "ANY",
+      "path": "/",
+      "type": "endpoint"
+    }
+  ],
+  "ResourceInfo": [
+    {
+      "id": "6d57a93c-7480-47c6-84d7-1351c8e40b91",
+      "parentId": "e5da214b-999e-411b-b6d2-55f19ca493ea",
+      "resourceType": "Test",
+      "title": "default-test"
+    },
+    {
+      "id": "87e679c3-4bb5-4cd6-8c92-b20f0a2a27db",
+      "parentId": null,
+      "resourceType": "Inbound",
+      "title": "Server"
+    },
+    {
+      "id": "e5da214b-999e-411b-b6d2-55f19ca493ea",
+      "parentId": "712be46d-11f1-4388-85e2-7661d710a3a4",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "b9eafe8c-e7fa-4d9a-957a-0896557748dd",
+      "parentId": null,
+      "resourceType": "File",
+      "title": "test_file"
+    },
+    {
+      "id": "712be46d-11f1-4388-85e2-7661d710a3a4",
+      "parentId": "87e679c3-4bb5-4cd6-8c92-b20f0a2a27db",
+      "resourceType": "InboundEndpoint",
+      "title": "Endpoint"
+    }
+  ],
+  "Test": [
+    {
+      "id": "6d57a93c-7480-47c6-84d7-1351c8e40b91",
+      "value": {
+        "body": "",
+        "header": {},
+        "path": {},
+        "path-string": "",
+        "query": {}
+      }
+    }
+  ]
+}

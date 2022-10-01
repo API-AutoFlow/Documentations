@@ -21,7 +21,7 @@ permalink: /docs/internal-actions/config-autoflow
 
 
 ## Sample Configuration
-Click to [learn how to upload configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-6-reusable-custom-actions/#download-and-upload-configuration) into your solution.
+Click to [learn how to upload configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-10-organization/#paste-configuration) into your solution.
 
 ### [Download Configuration](https://docs.apiautoflow.com/assets/configs/config-autoflow-timer.json)
 

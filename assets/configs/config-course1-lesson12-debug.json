@@ -1,0 +1,113 @@
+{
+  "$product": {
+    "deployment_mode": "SOLO",
+    "name": "API AutoFlow",
+    "version": "3.0.2"
+  },
+  "Flow": [
+    {
+      "default-test": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "flow": [
+        {
+          "$action": "data/log",
+          "label": "LOG 1",
+          "level": "info",
+          "name": "data/log 1",
+          "value": {
+            "__$afref__": "data",
+            "path": [
+              "request",
+              "body"
+            ]
+          }
+        },
+        {
+          "$action": "string/upcase",
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "request",
+              "body"
+            ]
+          },
+          "string": {
+            "__$afref__": "data",
+            "path": [
+              "request",
+              "body"
+            ]
+          }
+        },
+        {
+          "$action": "data/log",
+          "label": "LOG 2",
+          "level": "info",
+          "name": "data/log 2",
+          "value": {
+            "__$afref__": "data",
+            "path": [
+              "request",
+              "body"
+            ]
+          }
+        }
+      ],
+      "id": "0d147291-b5fa-4873-96d6-51b27c83e683"
+    }
+  ],
+  "Inbound": [
+    {
+      "groups": [],
+      "id": "77814030-562d-4a71-a308-a034a61a3df2",
+      "port": 27836,
+      "type": "http server"
+    }
+  ],
+  "InboundEndpoint": [
+    {
+      "decode-content": true,
+      "endpoint-type": "Basic",
+      "id": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "method": "ANY",
+      "path": "/debug",
+      "type": "endpoint"
+    }
+  ],
+  "ResourceInfo": [
+    {
+      "id": "0d147291-b5fa-4873-96d6-51b27c83e683",
+      "parentId": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "77814030-562d-4a71-a308-a034a61a3df2",
+      "parentId": null,
+      "resourceType": "Inbound",
+      "title": "Server"
+    },
+    {
+      "id": "1003c008-39a1-447c-89b3-4591ebbd2962",
+      "parentId": "77814030-562d-4a71-a308-a034a61a3df2",
+      "resourceType": "InboundEndpoint",
+      "title": "Debug"
+    },
+    {
+      "id": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "parentId": "0d147291-b5fa-4873-96d6-51b27c83e683",
+      "resourceType": "Test",
+      "title": "default-test"
+    }
+  ],
+  "Test": [
+    {
+      "id": "4c8bcb45-a6ea-4ef2-a429-e430f3093875",
+      "value": {
+        "body": "hello",
+        "header": {},
+        "path": {},
+        "path-string": "",
+        "query": {}
+      }
+    }
+  ]
+}

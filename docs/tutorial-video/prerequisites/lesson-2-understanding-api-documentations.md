@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Lesson 2 Understanding API Documentations
+title: Lesson 2 API Docs
 parent: Prerequisites
 grand_parent: Tutorials - Video
+published: true
 ---
 <h6>Prerequisites: Things you need to know before using API AutoFlow</h6>
 <h1 style="margin-top:0">Lesson 2: Understanding API Documentations</h1>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BZaM7vMn5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CuE1sqryl_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you have gone through my previous lessons,
 You will understand that API Documentations are like a menu in a restaurant.

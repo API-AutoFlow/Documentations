@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Lesson 4 Types of Data Used in API
+title: Lesson 4 Data Types
 parent: Prerequisites
 grand_parent: Tutorials - Video
+published: true
 ---
 <h6>Prerequisites: Things you need to know before using API AutoFlow</h6>
 <h1 style="margin-top:0">Lesson 4: Types of Data Used in API</h1>

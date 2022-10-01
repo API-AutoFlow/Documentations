@@ -1,0 +1,187 @@
+{
+  "$product": {
+    "deployment_mode": "SOLO",
+    "name": "API AutoFlow",
+    "version": "3.0.2"
+  },
+  "Flow": [
+    {
+      "default-test": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "flow": [
+        {
+          "$action": "database/mariadb/query",
+          "address": "127.0.0.1",
+          "database": "patients",
+          "database-id": "",
+          "format": "processed",
+          "mock-result": {
+            "columns": [
+              "column1",
+              "column2"
+            ],
+            "num_rows": 2,
+            "rows": [
+              [
+                "col1_val1",
+                "col2_val1"
+              ],
+              [
+                "col1_val2",
+                "col2_val2"
+              ]
+            ]
+          },
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "result"
+            ]
+          },
+          "password": "password",
+          "port": 3306,
+          "query": "SELECT * FROM patients.patient;",
+          "ssl": false,
+          "type": "single execution",
+          "use-mock-result": false,
+          "username": "root"
+        },
+        {
+          "$action": "data/set",
+          "at-location": {
+            "__$afref__": "data",
+            "path": [
+              "result_loop"
+            ]
+          },
+          "value": []
+        },
+        {
+          "$action": "iteration/for-each",
+          "array": {
+            "__$afref__": "data",
+            "path": [
+              "result"
+            ]
+          },
+          "do": [
+            {
+              "$action": "array/insert-at",
+              "array": {
+                "__$afref__": "data",
+                "path": [
+                  "result_loop"
+                ]
+              },
+              "index": 0,
+              "output-location": {
+                "__$afref__": "data",
+                "path": [
+                  "result_loop"
+                ]
+              },
+              "value": {
+                "date_of_birth": {
+                  "__$afref__": "data",
+                  "path": [
+                    "value",
+                    "dob"
+                  ]
+                },
+                "user": {
+                  "__$afref__": "data",
+                  "path": [
+                    "value",
+                    "name"
+                  ]
+                }
+              }
+            }
+          ],
+          "index-location": {
+            "__$afref__": "data",
+            "path": [
+              "index"
+            ]
+          },
+          "value-location": {
+            "__$afref__": "data",
+            "path": [
+              "value"
+            ]
+          }
+        },
+        {
+          "$action": "data/set",
+          "at-location": {
+            "__$afref__": "data",
+            "path": [
+              "response",
+              "body"
+            ]
+          },
+          "value": {
+            "__$afref__": "data",
+            "path": [
+              "result_loop"
+            ]
+          }
+        }
+      ],
+      "id": "05679d4d-f873-467a-8acf-8eb7aa22e772"
+    }
+  ],
+  "Inbound": [
+    {
+      "id": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "port": 27836,
+      "type": "http server"
+    }
+  ],
+  "InboundEndpoint": [
+    {
+      "decode-content": true,
+      "endpoint-type": "Basic",
+      "id": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "method": "ANY",
+      "path": "/",
+      "type": "endpoint"
+    }
+  ],
+  "ResourceInfo": [
+    {
+      "id": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "parentId": null,
+      "resourceType": "Inbound",
+      "title": "Server"
+    },
+    {
+      "id": "05679d4d-f873-467a-8acf-8eb7aa22e772",
+      "parentId": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "parentId": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "resourceType": "InboundEndpoint",
+      "title": "Endpoint"
+    },
+    {
+      "id": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "parentId": "05679d4d-f873-467a-8acf-8eb7aa22e772",
+      "resourceType": "Test",
+      "title": "default-test"
+    }
+  ],
+  "Test": [
+    {
+      "id": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "value": {
+        "body": {},
+        "header": {},
+        "path": {},
+        "path-string": "",
+        "query": {}
+      }
+    }
+  ]
+}

@@ -22,6 +22,12 @@ Unlike traditional no-code platforms that are made for the `frontend`, API AutoF
 
 When you first open up API AutoFlow, you'll see a bunch of colorful icons arranged into different groups. The groups are solutions, and the icons are flows.
 
+
+
+# It's all about APIs
+# It's all about data
+
+
 ## Overall Application Architecture?
 API AutoFlow is the **application backend** that processes the data and performs automation logic.
 

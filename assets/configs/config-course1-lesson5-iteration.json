@@ -1,0 +1,120 @@
+{
+  "$product": {
+    "deployment_mode": "SOLO",
+    "name": "API AutoFlow",
+    "version": "3.0.2"
+  },
+  "Flow": [
+    {
+      "default-test": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "flow": [
+        {
+          "$action": "iteration/filter",
+          "array": {
+            "__$afref__": "data",
+            "path": [
+              "request",
+              "body"
+            ]
+          },
+          "do": [
+            {
+              "$action": "string/contains",
+              "contents": "female",
+              "output-location": {
+                "__$afref__": "data",
+                "path": [
+                  "value"
+                ]
+              },
+              "string": {
+                "__$afref__": "data",
+                "path": [
+                  "value"
+                ]
+              }
+            }
+          ],
+          "index-location": {
+            "__$afref__": "data",
+            "path": [
+              "index"
+            ]
+          },
+          "output-location": {
+            "__$afref__": "data",
+            "path": [
+              "result"
+            ]
+          },
+          "value-location": {
+            "__$afref__": "data",
+            "path": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "id": "05679d4d-f873-467a-8acf-8eb7aa22e772"
+    }
+  ],
+  "Inbound": [
+    {
+      "id": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "port": 27836,
+      "type": "http server"
+    }
+  ],
+  "InboundEndpoint": [
+    {
+      "decode-content": true,
+      "endpoint-type": "Basic",
+      "id": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "method": "ANY",
+      "path": "/",
+      "type": "endpoint"
+    }
+  ],
+  "ResourceInfo": [
+    {
+      "id": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "parentId": null,
+      "resourceType": "Inbound",
+      "title": "Server"
+    },
+    {
+      "id": "05679d4d-f873-467a-8acf-8eb7aa22e772",
+      "parentId": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "resourceType": "Flow"
+    },
+    {
+      "id": "8e8ed35e-9fdf-4a3c-81ea-bbdff7f56ccd",
+      "parentId": "6317d17b-7e3d-44ff-bdbb-02d634a8c22b",
+      "resourceType": "InboundEndpoint",
+      "title": "Endpoint"
+    },
+    {
+      "id": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "parentId": "05679d4d-f873-467a-8acf-8eb7aa22e772",
+      "resourceType": "Test",
+      "title": "default-test"
+    }
+  ],
+  "Test": [
+    {
+      "id": "f7bb1010-9e31-4b42-a248-625f9bd60e47",
+      "value": {
+        "body": [
+          "[\"peter\",\"male\"]",
+          "[\"mary\",\"female\"]",
+          "[\"john\",\"male\"]",
+          "[\"elizabeth\",\"female\"]"
+        ],
+        "header": {},
+        "path": {},
+        "path-string": "",
+        "query": {}
+      }
+    }
+  ]
+}

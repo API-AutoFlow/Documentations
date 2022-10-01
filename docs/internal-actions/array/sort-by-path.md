@@ -89,7 +89,7 @@ Result in “out” is
 
 
 ## Sample Configuration
-Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-6-reusable-custom-actions/#cut-and-paste-configuration) into your solution.
+Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-10-organization/#paste-configuration) into your solution.
 
 
 ```yaml

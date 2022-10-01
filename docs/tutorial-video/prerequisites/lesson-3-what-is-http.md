@@ -3,13 +3,12 @@ layout: default
 title: Lesson 3 What is HTTP
 parent: Prerequisites
 grand_parent: Tutorials - Video
+published: true
 ---
 <h6>Prerequisites: Things you need to know before using API AutoFlow</h6>
 <h1 style="margin-top:0">Lesson 3: What is HTTP</h1>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ya4fFjBq4g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TuLqD9_3PZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Have you ever wondered what http in front of every URL means?
 If you have gone through my previous lessons,
