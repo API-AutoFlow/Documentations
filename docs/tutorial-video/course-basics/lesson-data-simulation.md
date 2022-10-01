@@ -42,7 +42,7 @@ Use the `data/set` action
 1. input *value* is the HTTP-request-body 
 2. output is HTTP-response-body
 
-![Flow copy HTTP request to response](/assets/images/flow-copy-http-request-to-response.png)
+![Flow copy HTTP request to response](/assets/images/flow-copy-http-request-to-response.png){: width="600px" }
 
 ### Multiple simulation versions
 
@@ -50,7 +50,7 @@ When creating a solution, there are times when the user needs to test with multi
 
 By, pressing the `+` button, you can create as many versions of the test as you need.
 
-![flow test simulation create](/assets/images/flow-data-simulation-create.png)
+![flow test simulation create](/assets/images/flow-data-simulation-create.png){: width="500px" }
 
 Use the drop-down to select the version of the flow test simulation.
 
@@ -70,7 +70,7 @@ The flow transaction data is on the **_bottom of the left navigation pane_**
 1. Data received by the selected action
 2. Stored in memory
 
-![Flow transaction data](/assets/images/flow-transaction-data.png){: width="500px" }
+![Flow transaction data](/assets/images/flow-transaction-data.png){: width="800px" }
 
 ## 2. Action Response Simulation
 

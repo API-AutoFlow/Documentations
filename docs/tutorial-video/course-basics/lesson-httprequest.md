@@ -39,19 +39,19 @@ For more information, click [postman echo](https://www.postman.com/postman/works
 
 Set the output to `result`
 
-![Apply HTTP Request Action](/assets/images/tutorial-http-2.png){: width="500px" }
+![Apply HTTP Request Action](/assets/images/tutorial-http-2.png){: width="600px" }
 
 ## 3\. Check the API Response
 
 In the `flow transaction data`, the API successfully got the data from the API.
 
-![Apply HTTP Request Action](/assets/images/tutorial-http-3.png)
+![Apply HTTP Request Action](/assets/images/tutorial-http-3.png){: width="800px" }
 
 ## 4\. Other HTTP Requests
 
 There are many types of HTTP API. Check the API provider's manual for the correct HTTP action to use.
 
-![Apply HTTP Request Action](/assets/images/tutorial-http-4.png){: width="500px" }
+![Apply HTTP Request Action](/assets/images/tutorial-http-4.png){: width="400px" }
 
 
 {% include in_line_banner_config.html config_title="Making API Calls" config_url="/assets/configs/config-httprequest.json" %}

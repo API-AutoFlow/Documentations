@@ -20,7 +20,7 @@ published: true
 
 ## 1\. In-product File
 
-![File Upload](/assets/images/tutorial-file-1.png)
+![File Upload](/assets/images/tutorial-file-1.png){: width="800px" }
 
 ## 2\. External File Location
 
@@ -34,9 +34,11 @@ The file directory points to the folder `autoflow` are downloaded
 ## 3\. Read Data from File
 
 For external files
+
 ![File Upload](/assets/images/tutorial-file-3.png){: width="500px" }
 
 For uploaded files
+
 ![File Upload](/assets/images/tutorial-file-4.png){: width="500px" }
 
 ## 4\. Write Data to File

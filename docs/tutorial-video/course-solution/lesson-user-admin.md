@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 4 User Sigup
+title: Lesson 4 User Signup
 parent: Course 2 Full Stack
 grand_parent: Tutorials - Video
 nav_order: 4

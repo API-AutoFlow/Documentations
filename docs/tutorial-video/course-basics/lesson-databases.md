@@ -65,7 +65,7 @@ Note that the action is creating a new object with a new object `key`.
 
 To change the value, use the string actions since the data is in string format. 
 
-![Use array insert at](/assets/images/database-tutorial-4.png)
+![Use array insert at](/assets/images/database-tutorial-4.png){: width="800px" }
 
 Learn more about [array/insert-at](/array/insert-at) action
 
@@ -73,7 +73,7 @@ Learn more about [array/insert-at](/array/insert-at) action
 
 Finally, to provide the data for others to use, final data needs to be provided in the `response/body`.
 
-![Put together HTTP response](/assets/images/database-tutorial-5.png)
+![Put together HTTP response](/assets/images/database-tutorial-5.png){: width="700px" }
 
 
 {% include in_line_banner_config.html config_title="Learn How to Work with Databases" config_url="/assets/configs/config-course1-lesson6-database.json" %}

@@ -103,6 +103,7 @@ When creating APIs, there are some basic methods that the application should sup
 | **D**elete  | DELETE  |
 
 In the API AutoFlow, the 4 methods are created to do the CRUD functions.
+
 ![CRUD API Methods](/assets/images/tutorial-frontend.png){: width="500px" }
 
 

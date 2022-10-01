@@ -25,7 +25,7 @@ In the below example, the action **integer to string** is expecting an `integer`
 
 <span style="color:red">*Expected Integer for "integer" but received non-integer value: "Hello World"*</span>
 
-![Debugging](/assets/images/tutorial-debug.png){: width="500px" }
+![Debugging](/assets/images/tutorial-debug.png){: width="700px" }
 
 ## 2\. Apply Data/Log Action
 
@@ -38,7 +38,7 @@ In the example below, note that two [data/log](/docs/internal-actions/data/log/)
 * The first `data/log 1` log the data and shows `hello`.
 * The second `data/log 2` log the data after the [string/upcase](/docs/internal-actions/string/upcase/) has been applied and shows `HELLO`.
 
-![Debugging](/assets/images/tutorial-debug-1.png)
+![Debugging](/assets/images/tutorial-debug-1.png){: width="800px" }
 
 Note that the data printed is what the [data/log](/docs/internal-actions/data/log/) action received where it is applied.
 

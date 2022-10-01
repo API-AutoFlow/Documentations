@@ -33,23 +33,23 @@ Let’s create a Hello World! solution
 1\. Click on the Solution tab on the left navigation pane
 2\. Create an HTTP server by clicking on the drop-down
 
-![Create Server](/assets/images/create-solution-server.png){: width="500px" }
+![Create Server](/assets/images/create-solution-server.png){: width="600px" }
 
 3\. Create an Endpoint by clicking on the same drop-down and selecting the server just created
 
-![Create Ednpoint](/assets/images/create-solution-endpoint.png){: width="500px" }
+![Create Ednpoint](/assets/images/create-solution-endpoint.png){: width="600px" }
 
 4\. From the right pane, click on the **Actions** tab.
 
-![Action tab](/assets/images/right-pane-action-tab.png){: width="500px" }
+![Action tab](/assets/images/right-pane-action-tab.png){: width="600px" }
 
 5\. click on the data category.
 
-![Data category](/assets/images/actions-data-category.png){: width="500px" }
+![Data category](/assets/images/actions-data-category.png){: width="600px" }
 
 6\. Scroll down or search for **set** action and drag and drop to the solution canvas.
 
-![Action Set](/assets/images/create-solution-action-set.png){: width="500px" }
+![Action Set](/assets/images/create-solution-action-set.png){: width="800px" }
 
 <br />
 Note: dataset action simply sets a value to the solution flow.
@@ -60,7 +60,7 @@ Note: dataset action simply sets a value to the solution flow.
 
 8\. In the settings for the action, enter `Hello World!` in the properties and in the output enter response > body
 
-![Actions Setting for Data Set](/assets/images/create-solution-data-set-settings.png){: width="500px" }
+![Actions Setting for Data Set](/assets/images/create-solution-data-set-settings.png){: width="800px" }
 
 {% include in_line_banner_config.html config_title="Hello World!" config_url="/assets/configs/config-helloworld.json" %}
 
