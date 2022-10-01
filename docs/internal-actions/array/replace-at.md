@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Replace At
+title: Replace At
 parent: Array
 grand_parent: Internal Actions
 ---

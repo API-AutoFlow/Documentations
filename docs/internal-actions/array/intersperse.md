@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Intersperse
+title: Intersperse
 parent: Array
 grand_parent: Internal Actions
 ---

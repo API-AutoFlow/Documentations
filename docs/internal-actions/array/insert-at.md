@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Insert At
+title: Insert At
 parent: Array
 grand_parent: Internal Actions
 ---

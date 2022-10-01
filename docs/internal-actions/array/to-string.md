@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array To String
+title: To String
 parent: Array
 grand_parent: Internal Actions
 ---

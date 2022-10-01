@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Take
+title: Take
 parent: Array
 grand_parent: Internal Actions
 ---

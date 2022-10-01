@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Random
+title: Random
 parent: Float
 grand_parent: Internal Actions
 ---

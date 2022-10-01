@@ -10,8 +10,11 @@ published: true
 
 ## Install MySQL Workbench
 
-### Use Official Oracle Guide 
+### Official Installation Guide 
 [https://dev.mysql.com/doc/workbench/en/wb-installing.html](https://dev.mysql.com/doc/workbench/en/wb-installing.html)
 
 ### Installation Video
 [https://www.youtube.com/watch?v=u96rVINbAUI](https://www.youtube.com/watch?v=u96rVINbAUI)
+
+### Downalod SQL Cheat sheet
+[https://www.sqltutorial.org/sql-cheat-sheet/](https://www.sqltutorial.org/sql-cheat-sheet/)

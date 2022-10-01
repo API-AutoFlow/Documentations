@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Base 16 Decode
+title: Base 16 Decode
 parent: String
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Delete At
+title: Delete At
 parent: Array
 grand_parent: Internal Actions
 ---

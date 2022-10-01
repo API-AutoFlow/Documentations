@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String to Integer
+title: to Integer
 parent: String
 grand_parent: Internal Actions
 ---

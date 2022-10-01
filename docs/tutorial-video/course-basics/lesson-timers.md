@@ -23,26 +23,26 @@ Timers are used to schedule triggered events at a set interval.
 ## 1\. Create Timer
 
 Create a new timer by selecting **Timer** from the drop-down.
-![Timer](/assets/images/tutorial-timer.png)
+![Timer](/assets/images/tutorial-timer.png){: width="500px" }
 
 
 ## 2\. Set Timer
 
 Set the timer to the desired interval.  The time is in `milliseconds`.
-![Timer](/assets/images/tutorial-timer-1.png)
+![Timer](/assets/images/tutorial-timer-1.png){: width="500px" }
 
 ## 3\. Apply action(s) to the Timer
 
 Apply actions to the timer's flow.  A common use case is to trigger a flow using a timer.
-![Timer](/assets/images/tutorial-timer-2.png)
+![Timer](/assets/images/tutorial-timer-2.png){: width="500px" }
 
 ## 4\. Control Timer
 
-There are use cases where timers need to be stopped and started based on a condition.  Use the `config/timer` actions to automate the timer.
+There are use cases where timers need to be stopped and started based on a condition.  Use the [config/timer](/docs/internal-actions/config-autoflow/timer-create/) actions to automate the timer.
 ![Timer](/assets/images/tutorial-timer-3.png)
 
 
-{% include in_line_banner_config.html config_title="Scheduling Flow Execution Using Timers" config_url="/assets/configs/config-course1-lesson11-timer.json" %}
+{% include in_line_banner_config.html config_title="Scheduling Flow Execution Using Timers" config_url="/assets/configs/config-timer.json" %}
 
 
 [NEXT >> Lesson 12: Debugging Using Logs](/docs/tutorial-video/course-1-basics/lesson-12-debug/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

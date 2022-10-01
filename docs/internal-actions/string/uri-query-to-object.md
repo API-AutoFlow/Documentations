@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String URI Query to Object
+title: URI Query to Object
 parent: String
 grand_parent: Internal Actions
 ---

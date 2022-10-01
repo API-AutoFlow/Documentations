@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Is Empty
+title: Is Empty
 parent: Array
 grand_parent: Internal Actions
 ---

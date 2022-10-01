@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Reverse
+title: Reverse
 parent: Array
 grand_parent: Internal Actions
 ---

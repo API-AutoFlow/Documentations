@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Capitalize
+title: Capitalize
 parent: String
 grand_parent: Internal Actions
 ---

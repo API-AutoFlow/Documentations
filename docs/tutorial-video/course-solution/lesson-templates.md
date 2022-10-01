@@ -4,7 +4,7 @@ title: Lesson 5 Templates
 parent: Course 2 Full Stack
 grand_parent: Tutorials - Video
 nav_order: 5
-published: false
+published: true
 ---
 <h6>Course 2: Creating solutions for your project</h6>
 <h1 style="margin-top:0">Lesson 5: Templates for Every Use Case</h1>

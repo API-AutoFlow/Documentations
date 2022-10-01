@@ -33,36 +33,36 @@ Let’s create a Hello World! solution
 1\. Click on the Solution tab on the left navigation pane
 2\. Create an HTTP server by clicking on the drop-down
 
-![Create Server](/assets/images/create-solution-server.png)
+![Create Server](/assets/images/create-solution-server.png){: width="500px" }
 
 3\. Create an Endpoint by clicking on the same drop-down and selecting the server just created
 
-![Create Ednpoint](/assets/images/create-solution-endpoint.png)
+![Create Ednpoint](/assets/images/create-solution-endpoint.png){: width="500px" }
 
 4\. From the right pane, click on the **Actions** tab.
 
-![Action tab](/assets/images/right-pane-action-tab.png)
+![Action tab](/assets/images/right-pane-action-tab.png){: width="500px" }
 
 5\. click on the data category.
 
-![Data category](/assets/images/actions-data-category.png)
+![Data category](/assets/images/actions-data-category.png){: width="500px" }
 
 6\. Scroll down or search for **set** action and drag and drop to the solution canvas.
 
-![Action Set](/assets/images/create-solution-action-set.png)
+![Action Set](/assets/images/create-solution-action-set.png){: width="500px" }
 
 <br />
 Note: dataset action simply sets a value to the solution flow.
 
 7\. Turn on the development mode to visualize the data
 
-![Dev Mode](/assets/images/dev-mode-switch.png)
+![Dev Mode](/assets/images/dev-mode-switch.png){: width="500px" }
 
 8\. In the settings for the action, enter `Hello World!` in the properties and in the output enter response > body
 
-![Actions Setting for Data Set](/assets/images/create-solution-data-set-settings.png)
+![Actions Setting for Data Set](/assets/images/create-solution-data-set-settings.png){: width="500px" }
 
-{% include in_line_banner_config.html config_title="Hello World!" config_url="/assets/configs/_____.json" %}
+{% include in_line_banner_config.html config_title="Hello World!" config_url="/assets/configs/config-helloworld.json" %}
 
 [NEXT >> LESSON 3: Data Simulation](/docs/tutorial-video/course-1-basics/lesson-3-data-simulation/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

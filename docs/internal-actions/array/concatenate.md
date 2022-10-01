@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Concatenate
+title: Concatenate
 parent: Array
 grand_parent: Internal Actions
 ---

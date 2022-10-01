@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Replace Trailing
+title: Replace Trailing
 parent: String
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Drop
+title: Drop
 parent: Array
 grand_parent: Internal Actions
 ---

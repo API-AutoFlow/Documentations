@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Downcase
+title: Downcase
 parent: String
 grand_parent: Internal Actions
 ---

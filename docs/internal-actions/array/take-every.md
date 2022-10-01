@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Take Every
+title: Take Every
 parent: Array
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Shuffle
+title: Shuffle
 parent: Array
 grand_parent: Internal Actions
 ---

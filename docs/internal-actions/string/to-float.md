@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String to Float
+title: to Float
 parent: String
 grand_parent: Internal Actions
 ---

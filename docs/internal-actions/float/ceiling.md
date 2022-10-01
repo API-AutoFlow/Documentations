@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Ceiling
+title: Ceiling
 parent: Float
 grand_parent: Internal Actions
 ---

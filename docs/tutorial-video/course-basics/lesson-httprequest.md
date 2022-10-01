@@ -24,7 +24,7 @@ From the `right navigation`, select the `communication` category.
 
 ![Apply HTTP Request Action](/assets/images/tutorial-http.png)
 
-Drag and drop the `HTTP request` condition to the flow
+Drag and drop the [HTTP request](/docs/external-actions/communication/http-request/) condition to the flow
 
 ![Apply HTTP Request Action](/assets/images/tutorial-http-1.png)
 
@@ -39,7 +39,7 @@ For more information, click [postman echo](https://www.postman.com/postman/works
 
 Set the output to `result`
 
-![Apply HTTP Request Action](/assets/images/tutorial-http-2.png)
+![Apply HTTP Request Action](/assets/images/tutorial-http-2.png){: width="500px" }
 
 ## 3\. Check the API Response
 
@@ -51,10 +51,10 @@ In the `flow transaction data`, the API successfully got the data from the API.
 
 There are many types of HTTP API. Check the API provider's manual for the correct HTTP action to use.
 
-![Apply HTTP Request Action](/assets/images/tutorial-http-4.png)
+![Apply HTTP Request Action](/assets/images/tutorial-http-4.png){: width="500px" }
 
 
-{% include in_line_banner_config.html config_title="Making API Calls" config_url="/assets/configs/config-course1-lesson7-apicall.json" %}
+{% include in_line_banner_config.html config_title="Making API Calls" config_url="/assets/configs/config-httprequest.json" %}
 
 [NEXT >> Lesson 8:  In Memory Storage - Hash Table](/docs/tutorial-video/course-1-basics/lesson-8-hash-table/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

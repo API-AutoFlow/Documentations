@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Character Decode
+title: Character Decode
 parent: String
 grand_parent: Internal Actions
 ---

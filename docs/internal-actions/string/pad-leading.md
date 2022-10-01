@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Pad Leading
+title: Pad Leading
 parent: String
 grand_parent: Internal Actions
 ---

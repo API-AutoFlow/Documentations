@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Reverse
+title: Reverse
 parent: String
 grand_parent: Internal Actions
 ---

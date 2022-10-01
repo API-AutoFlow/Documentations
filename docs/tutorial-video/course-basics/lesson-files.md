@@ -18,13 +18,9 @@ published: true
 3. Read Data from File
 4. Write Data to File
 
-
 ## 1\. In-product File
 
-
-
 ![File Upload](/assets/images/tutorial-file-1.png)
-
 
 ## 2\. External File Location
 
@@ -38,21 +34,21 @@ The file directory points to the folder `autoflow` are downloaded
 ## 3\. Read Data from File
 
 For external files
-![File Upload](/assets/images/tutorial-file-3.png)
+![File Upload](/assets/images/tutorial-file-3.png){: width="500px" }
 
 For uploaded files
-![File Upload](/assets/images/tutorial-file-4.png)
+![File Upload](/assets/images/tutorial-file-4.png){: width="500px" }
 
 ## 4\. Write Data to File
 
 There are actions to write and append data to the file.
 
-![File Upload](/assets/images/tutorial-file-5.png)
+![File Upload](/assets/images/tutorial-file-5.png){: width="500px" }
 
 
 
 
-{% include in_line_banner_config.html config_title="Storing Data in a File" config_url="/assets/configs/config-course1-lesson9-files.json" %}
+{% include in_line_banner_config.html config_title="Storing Data in a File" config_url="/assets/configs/config-files.json" %}
 
 
 [NEXT >> Lesson 10: Organization](/docs/tutorial-video/course-1-basics/lesson-10-organization/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

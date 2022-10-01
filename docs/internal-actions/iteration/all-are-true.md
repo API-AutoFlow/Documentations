@@ -32,7 +32,7 @@ Let's say you have an array [1,2,3] and you want to check whether they are all i
 
 
 ## Sample Configuration
-Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-10-organization/#paste-configuration) into your solution.
+Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-basics/lesson-organization/#3-paste-configuration) into your solution.
 
 
 ```yaml

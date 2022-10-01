@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Is Member
+title: Is Member
 parent: Array
 grand_parent: Internal Actions
 ---

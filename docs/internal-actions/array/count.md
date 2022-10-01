@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Count
+title: Count
 parent: Array
 grand_parent: Internal Actions
 ---

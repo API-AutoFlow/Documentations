@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Random
+title: Random
 parent: Array
 grand_parent: Internal Actions
 ---

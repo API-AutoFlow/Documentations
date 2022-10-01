@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Slice
+title: Slice
 parent: Array
 grand_parent: Internal Actions
 ---

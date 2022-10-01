@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Ratio
+title: Ratio
 parent: Float
 grand_parent: Internal Actions
 ---

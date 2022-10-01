@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Trim
+title: Trim
 parent: Array
 grand_parent: Internal Actions
 ---

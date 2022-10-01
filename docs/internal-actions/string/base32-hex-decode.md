@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Base 32 Hex Decode
+title: Base 32 Hex Decode
 parent: String
 grand_parent: Internal Actions
 ---

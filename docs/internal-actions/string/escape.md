@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Escape
+title: Escape
 parent: String
 grand_parent: Internal Actions
 ---

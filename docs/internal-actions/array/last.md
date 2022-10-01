@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Last
+title: Last
 parent: Array
 grand_parent: Internal Actions
 ---

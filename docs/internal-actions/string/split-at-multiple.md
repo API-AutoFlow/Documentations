@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Split At Multiple
+title: Split At Multiple
 parent: String
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Starts With
+title: Starts With
 parent: Array
 grand_parent: Internal Actions
 ---

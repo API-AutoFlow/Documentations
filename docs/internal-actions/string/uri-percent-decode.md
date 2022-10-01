@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String URI Percent Decode
+title: URI Percent Decode
 parent: String
 grand_parent: Internal Actions
 ---

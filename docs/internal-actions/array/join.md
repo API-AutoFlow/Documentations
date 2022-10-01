@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Join
+title: Join
 parent: Array
 grand_parent: Internal Actions
 ---

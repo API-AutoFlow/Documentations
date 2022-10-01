@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Trim
+title: Trim
 parent: String
 grand_parent: Internal Actions
 ---

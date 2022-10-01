@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array To Object
+title: To Object
 parent: Array
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Unique
+title: Unique
 parent: Array
 grand_parent: Internal Actions
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Regex is Match
+title: Regex is Match
 parent: String
 grand_parent: Internal Actions
 ---

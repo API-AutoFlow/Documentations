@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String is Equal
+title: is Equal
 parent: String
 grand_parent: Internal Actions
 ---

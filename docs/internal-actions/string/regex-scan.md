@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Regex Scan
+title: Regex Scan
 parent: String
 grand_parent: Internal Actions
 ---

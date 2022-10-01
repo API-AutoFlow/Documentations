@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Sum
+title: Sum
 parent: Array
 grand_parent: Internal Actions
 ---

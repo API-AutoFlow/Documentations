@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String First
+title: First
 parent: String
 grand_parent: Internal Actions
 ---

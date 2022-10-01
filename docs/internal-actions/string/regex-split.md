@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Regex Split
+title: Regex Split
 parent: String
 grand_parent: Internal Actions
 ---

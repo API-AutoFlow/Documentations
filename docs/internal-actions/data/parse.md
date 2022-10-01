@@ -22,7 +22,7 @@ Output-location: Location to store the output data
 
 ## Sample Configuraiton
 
-Click to [learn how to upload configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-10-organization/#paste-configuration) into your solution.
+Click to [learn how to upload configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-basics/lesson-organization/#3-paste-configuration) into your solution.
 
 
 ```yaml

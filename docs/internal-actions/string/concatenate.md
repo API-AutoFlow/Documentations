@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Concatenate
+title: Concatenate
 parent: String
 grand_parent: Internal Actions
 ---

@@ -25,24 +25,24 @@ In the below example, the action **integer to string** is expecting an `integer`
 
 <span style="color:red">*Expected Integer for "integer" but received non-integer value: "Hello World"*</span>
 
-![Debugging](/assets/images/tutorial-debug.png)
+![Debugging](/assets/images/tutorial-debug.png){: width="500px" }
 
 ## 2\. Apply Data/Log Action
 
 In most cases debugging happens with simulated data. That is because flows are made to handle the input data and generate the desired output.
 
-Apply `data/log` action anywhere in the flow to print the data.
+Apply [data/log](/docs/internal-actions/data/log/) action anywhere in the flow to print the data.
 
-In the example below, note that two `data/log` actions are applied.
+In the example below, note that two [data/log](/docs/internal-actions/data/log/) actions are applied.
 
 * The first `data/log 1` log the data and shows `hello`.
-* The second `data/log 2` log the data after the `string/upcase` has been applied and shows `HELLO`.
+* The second `data/log 2` log the data after the [string/upcase](/docs/internal-actions/string/upcase/) has been applied and shows `HELLO`.
 
 ![Debugging](/assets/images/tutorial-debug-1.png)
 
-Note that the data printed is what the `data/log` action received where it is applied.
+Note that the data printed is what the [data/log](/docs/internal-actions/data/log/) action received where it is applied.
 
-{% include in_line_banner_config.html config_title="Debugging Using Logs" config_url="/assets/configs/config-course1-lesson12-debug.json" %}
+{% include in_line_banner_config.html config_title="Debugging Using Logs" config_url="/assets/configs/config-debug.json" %}
 
 [NEXT >> Course 2: Advanced](/docs/tutorial-video/course-2-creating-solutions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

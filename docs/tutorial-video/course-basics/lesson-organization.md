@@ -15,7 +15,8 @@ published: true
 ## Lesson Outline
 
 1. Reusable Custom Actions
-2. Cut and Paste
+2. Copy Configuration
+3. Paste Configuration
 3. Import and Export Configuration
 4. Roll Back
 5. Organization
@@ -24,9 +25,9 @@ published: true
 
 Create once and reuse many times. For developers, you can think of it as functions.  It takes an `input` and gives back an `output`.  You create a custom action using a flow just like you would in a solutions section. The custom action can be applied in any flow.
 
-![Reusable Custom Actions](/assets/images/tutorial-custom-action.png)
+![Reusable Custom Actions](/assets/images/tutorial-custom-action.png){: width="500px" }
 
-In the below example, a simple custom action with `data/set` is configured.  The action takes in the `input` data and sets the response as the `output` data.
+In the below example, a simple custom action with [data/set](/docs/internal-actions/data/set/) is configured.  The action takes in the `input` data and sets the response as the `output` data.
 
 ![Reusable Custom Actions](/assets/images/tutorial-custom-action-1.png)
 
@@ -45,15 +46,13 @@ Apply the `input` and `output` value of the custom actions.  In the below exampl
 ![Reusable Custom Actions](/assets/images/tutorial-custom-action-3.png)
 
 
-## 2\. Copy and Paste Configuration
-
-### Copy Configuration
+## 2\. Copy Configuration
 
 Select the action you want to copy.  By pressing the copy icon, the configuration for the action gets copied
 
 ![Reusable Custom Actions](/assets/images/tutorial-copy.png)
 
-### Paste Configuration
+## 3\. Paste Configuration
 
 Select the paste icon.
 ![Reusable Custom Actions](/assets/images/tutorial-paste.png)
@@ -62,7 +61,7 @@ A paste pop-up will appear.  If you already copied an action, the pop-up will au
 
 If you are copying the configuration from another source, simply paste the configuration in the input box and press [OK].
 
-![Reusable Custom Actions](/assets/images/tutorial-paste-1.png)
+![Reusable Custom Actions](/assets/images/tutorial-paste-1.png){: width="500px" }
 
 ### Copy and Paste Shortcut
 
@@ -70,7 +69,7 @@ On the MAC, press `Alt` + drag and drop the action.
 
 
 
-## 3\. Upload and Export Configuration
+## 4\. Upload and Export Configuration
 
 Go to the **Settings** section.
 
@@ -78,43 +77,43 @@ Go to the **Settings** section.
 
 Press the **Download** button to save the configuration on your computer. The default file name is `config.json`.
 
-![Download configuration](/assets/images/tutorial-config-download.png)
+![Download configuration](/assets/images/tutorial-config-download.png){: width="500px" }
 
 ### Upload Configuration
 
 Press the **Upload** button to save the configuration on your computer. 
 
-![Upload configuration](/assets/images/tutorial-config-upload.png)
+![Upload configuration](/assets/images/tutorial-config-upload.png){: width="500px" }
 
 You can choose the parts you want to upload by selecting the checkboxes.
 
-![Upload configuration](/assets/images/tutorial-config-upload-1.png)
+![Upload configuration](/assets/images/tutorial-config-upload-1.png){: width="500px" }
 
 
-## 4\. Rollback
+## 5\. Rollback
 
 The rollback on your changes by pressing the **Undo** button.  The rollback will take you solution back to when the last change was made.
 
-![Change History](/assets/images/tutorial-change-history.png)
+![Change History](/assets/images/tutorial-change-history.png){: width="500px" }
 
 
-## 5\. Organizing Actions
+## 6\. Organizing Actions
 
 Go to the **Organization** category to use the **Group** action.
-![Organizing Actions](/assets/images/tutorial-organizing-actions.png)
+![Organizing Actions](/assets/images/tutorial-organizing-actions.png){: width="500px" }
 
 Drag and drop the actions in the **Group**. Users can copy, move, and delete the entire group in a single action.
 ![Organizing Actions](/assets/images/tutorial-organizing-actions-1.png)
 
-## 6\. Organizing Endpoints
+## 7\. Organizing Endpoints
 
 ### Creating the Endpoint Group
 Select the **Server** for the endpoints to group.  Create a new group by pressing the `+` button next to Endpoint Groups.
-![Organizing Endpoints](/assets/images/tutorial-organizing-endpoints.png)
+![Organizing Endpoints](/assets/images/tutorial-organizing-endpoints.png){: width="500px" }
 
 ### Adding Endpoints
 Press the **Endpoint** that you wish to group.  Select the group name from the dropdown.
-![Organizing Endpoints](/assets/images/tutorial-organizing-endpoints-1.png)
+![Organizing Endpoints](/assets/images/tutorial-organizing-endpoints-1.png){: width="500px" }
 
 The endpoints can be grouped for easier organization and visualization.
 ![Organizing Endpoints](/assets/images/tutorial-organizing-endpoints-3.png)

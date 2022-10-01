@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Floor
+title: Floor
 parent: Float
 grand_parent: Internal Actions
 ---

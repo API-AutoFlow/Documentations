@@ -30,13 +30,13 @@ So, if you want to apply the same action to each item on the list, it helps to h
 
 ## 1\. Apply `Interation` action to the `flow`
 
-From the right navigation, select the `iteration` category.
+From the right navigation, select the [iteration](/docs/internal-actions/iteration/) category.
 
 ![Action Conditional Select](/assets/images/action-loop-1.png)
 
-Drag and drop the `filter` iteration to the flow.  
+Drag and drop the [filter](/docs/internal-actions/iteration/filter/) iteration to the flow.  
 
-The `filter` iteration only passes value when `true`.  So, inside the iteration, we will need to put a `boolean` condition to filter our `result`.
+The [filter](/docs/internal-actions/iteration/filter/) iteration only passes value when `true`.  So, inside the iteration, we will need to put a `boolean` condition to filter our `result`.
 
 ![Action Conditional Select](/assets/images/action-loop-2.png)
 
@@ -68,13 +68,13 @@ So, as the iteration goes over each of the items, we need to make the value into
 
 ## 3\. Apply action to the conditions
 
-The condition can look for the word `female`.  There's perfect action for that called `string/contain`.
+The condition can look for the word `female`.  There's perfect action for that called [string/contain](/docs/internal-actions/string/contains/).
 
 String/contains action checks if the data contains a certain string and output `1` for true and `0` for false.
 
 ![Action Conditional Select](/assets/images/action-loop-5.png)
 
-Drag-and-drop the `string/contain` action inside the iteration.
+Drag-and-drop the [string/contain](/docs/internal-actions/string/contains/) action inside the iteration.
 
 ![Action Conditional Select](/assets/images/action-loop-6.png)
 
@@ -90,7 +90,7 @@ Next input the content that we want to filter. In our case, we are looking for i
 
 Output needs to be `value` since the iteration looks at the value for true or false.
 
-![Action Conditional Select](/assets/images/action-loop-8.png)
+![Action Conditional Select](/assets/images/action-loop-8.png){: width="500px" }
 
 Click on the small square outside the iteration.  After the iteration is complete, it will output `result` with the value `1` (true).
 
@@ -98,7 +98,7 @@ Below, we have filtered the items with string `female`.
 
 ![Action Conditional Select](/assets/images/action-loop-9.png)
 
-{% include in_line_banner_config.html config_title="Master Iteration (loop) to Create Complex Solutions" config_url="/assets/configs/config-course1-lesson5-iteration.json" %}
+{% include in_line_banner_config.html config_title="Master Iteration (loop) to Create Complex Solutions" config_url="/assets/configs/config-iteration.json" %}
 
 [NEXT >> Lesson 6: Learn How to Work with Databases and APIs](/docs/tutorial-video/course-1-basics/lesson-6-databases/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

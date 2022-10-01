@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Wrap
+title: Wrap
 parent: Array
 grand_parent: Internal Actions
 ---

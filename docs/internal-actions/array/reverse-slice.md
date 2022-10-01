@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Reverse Slice
+title: Reverse Slice
 parent: Array
 grand_parent: Internal Actions
 ---

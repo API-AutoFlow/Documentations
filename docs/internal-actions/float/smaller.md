@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Smaller
+title: Smaller
 parent: Float
 grand_parent: Internal Actions
 ---

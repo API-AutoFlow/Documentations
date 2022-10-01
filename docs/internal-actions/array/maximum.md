@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Maximum
+title: Maximum
 parent: Array
 grand_parent: Internal Actions
 ---

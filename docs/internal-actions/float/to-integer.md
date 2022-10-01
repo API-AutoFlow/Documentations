@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float to Integer
+title: to Integer
 parent: Float
 grand_parent: Internal Actions
 ---

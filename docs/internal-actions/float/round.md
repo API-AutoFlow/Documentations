@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Float Round
+title: Round
 parent: Float
 grand_parent: Internal Actions
 ---

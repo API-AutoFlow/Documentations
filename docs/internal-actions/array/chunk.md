@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Chunk
+title: Chunk
 parent: Array
 grand_parent: Internal Actions
 ---

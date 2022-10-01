@@ -46,7 +46,7 @@ You can access environment variables from any action
 ![Access Environmental Variable](/assets/images/tutorial-env-2.png)
 
 
-{% include in_line_banner_config.html config_title="In Memory Storage - Environment Variable" config_url="/assets/configs/config-course1-lesson8-env.json" %}
+{% include in_line_banner_config.html config_title="In Memory Storage - Environment Variable" config_url="/assets/configs/config-inmemory.json" %}
 
 
 <!-- ### Hash Table

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Character Encode
+title: Character Encode
 parent: String
 grand_parent: Internal Actions
 ---

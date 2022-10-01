@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Pad Trailing
+title: Pad Trailing
 parent: String
 grand_parent: Internal Actions
 ---

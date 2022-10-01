@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Trim Trailing Characters
+title: Trim Trailing Characters
 parent: String
 grand_parent: Internal Actions
 ---

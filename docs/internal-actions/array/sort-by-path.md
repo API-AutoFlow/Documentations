@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Sort
+title: Sort
 parent: Array
 grand_parent: Internal Actions
 ---
@@ -89,7 +89,7 @@ Result in “out” is
 
 
 ## Sample Configuration
-Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-1-basics/lesson-10-organization/#paste-configuration) into your solution.
+Click to [learn how to paste configuration](https://docs.apiautoflow.com/docs/tutorial-video/course-basics/lesson-organization/#3-paste-configuration) into your solution.
 
 
 ```yaml

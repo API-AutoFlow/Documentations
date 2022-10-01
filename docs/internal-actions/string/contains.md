@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Contains
+title: Contains
 parent: String
 grand_parent: Internal Actions
 ---

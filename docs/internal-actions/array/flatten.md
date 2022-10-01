@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Flatten
+title: Flatten
 parent: Array
 grand_parent: Internal Actions
 ---

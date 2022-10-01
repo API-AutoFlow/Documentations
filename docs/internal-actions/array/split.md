@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array Split
+title: Split
 parent: Array
 grand_parent: Internal Actions
 ---

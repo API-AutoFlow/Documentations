@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String URI URL encode
+title: URI URL encode
 parent: String
 grand_parent: Internal Actions
 ---

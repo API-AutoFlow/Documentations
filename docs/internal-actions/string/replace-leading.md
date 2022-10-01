@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Replace Leading
+title: Replace Leading
 parent: String
 grand_parent: Internal Actions
 ---

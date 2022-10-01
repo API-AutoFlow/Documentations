@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Join
+title: Join
 parent: String
 grand_parent: Internal Actions
 ---

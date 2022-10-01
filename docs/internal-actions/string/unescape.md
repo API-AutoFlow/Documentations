@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Unescape
+title: Unescape
 parent: String
 grand_parent: Internal Actions
 ---

@@ -65,7 +65,7 @@ You will notice that since the condition is true, it will execute the action "da
 
 ![Action Conditional Select](/assets/images/action-if-condition-select-4.png)
 
-{% include in_line_banner_config.html config_title="Build Your First Flow Using Conditionals" config_url="/assets/configs/config-course1-lesson4-conditional.json" %}
+{% include in_line_banner_config.html config_title="Build Your First Flow Using Conditionals" config_url="/assets/configs/config-conditional.json" %}
 
 [NEXT >> Lesson 5: Master Loops(Iterations) to Create Complex Solutions](/docs/tutorial-video/course-1-basics/lesson-5-iterations/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

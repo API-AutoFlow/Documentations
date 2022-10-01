@@ -54,7 +54,7 @@ By, pressing the `+` button, you can create as many versions of the test as you 
 
 Use the drop-down to select the version of the flow test simulation.
 
-![flow test simulation select](/assets/images/flow-data-simulation-select.png)
+![flow test simulation select](/assets/images/flow-data-simulation-select.png){: width="500px" }
 
 Note: You can delete or pin a version with the buttons provided.
 
@@ -70,7 +70,7 @@ The flow transaction data is on the **_bottom of the left navigation pane_**
 1. Data received by the selected action
 2. Stored in memory
 
-![Flow transaction data](/assets/images/flow-transaction-data.png)
+![Flow transaction data](/assets/images/flow-transaction-data.png){: width="500px" }
 
 ## 2. Action Response Simulation
 
@@ -80,7 +80,7 @@ During solution making, it may not be ideal to execute those actions too many ti
 
 Actions that interacts with an external source as a feature to simulate data.  This allows the solution maker to use `mocked` data during the `development mode`
 
-![Action mock data](/assets/images/action-mock-data.png)
+![Action mock data](/assets/images/action-mock-data.png){: width="500px" }
 
 Note: 
 1. The mock data feature is checked by default.  Be sure to uncheck if you want to test with a real dataset
@@ -90,21 +90,21 @@ Note:
 
 1\. Uncheck the mock data to get the real data
  
-![Action mock data](/assets/images/action-mock-data-copy-paste-1.png)
+![Action mock data](/assets/images/action-mock-data-copy-paste-1.png){: width="500px" }
 
 2\. Copy the data from the `flow transaction data`
 
-![Action mock data](/assets/images/action-mock-data-copy-paste-2.png)
+![Action mock data](/assets/images/action-mock-data-copy-paste-2.png){: width="500px" }
 
 3\. Check the mock data to simulate the data
 
-![Action mock data](/assets/images/action-mock-data-copy-paste-3.png)
+![Action mock data](/assets/images/action-mock-data-copy-paste-3.png){: width="500px" }
 
 4\. Paste the data into the mock data
 
-![Action mock data](/assets/images/action-mock-data-copy-paste-4.png)
+![Action mock data](/assets/images/action-mock-data-copy-paste-4.png){: width="500px" }
 
-{% include in_line_banner_config.html config_title="Using Data Simulation for Easier Development" config_url="/assets/configs/config-course1-lesson3-simulation.json" %}
+{% include in_line_banner_config.html config_title="Using Data Simulation for Easier Development" config_url="/assets/configs/config-simulation.json" %}
 
 [NEXT >> LESSON 4: Using Data Simulation for Easier Development](/docs/tutorial-video/course-1-basics/lesson-4-conditionals/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 

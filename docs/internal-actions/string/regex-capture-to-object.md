@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Regex Capture to Object
+title: Regex Capture to Object
 parent: String
 grand_parent: Internal Actions
 ---

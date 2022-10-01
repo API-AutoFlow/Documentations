@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Base 16 Encode
+title: Base 16 Encode
 parent: String
 grand_parent: Internal Actions
 ---

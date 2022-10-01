@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Base 64 URL Decode
+title: Base 64 URL Decode
 parent: String
 grand_parent: Internal Actions
 ---

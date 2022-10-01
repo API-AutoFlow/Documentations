@@ -1,6 +1,6 @@
 ---
 layout: default
-title: String Replace Suffix
+title: Replace Suffix
 parent: String
 grand_parent: Internal Actions
 ---

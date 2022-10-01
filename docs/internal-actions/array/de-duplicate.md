@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Array de-Duplicate
+title: de-Duplicate
 parent: Array
 grand_parent: Internal Actions
 ---
