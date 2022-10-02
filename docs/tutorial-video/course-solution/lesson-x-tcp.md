@@ -3,7 +3,6 @@ layout: default
 title: Lesson x TCP
 parent: Course 2 Full Stack
 grand_parent: Tutorials - Video
-permalink: /docs/tutorial-video/course-2-creating-solutions/lesson-x-xxxxxx
 published: false
 ---
 <h6>Course 2: Creating solutions for your project</h6>

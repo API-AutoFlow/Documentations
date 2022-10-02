@@ -44,7 +44,7 @@ The [filter](/docs/internal-actions/iteration/filter/) iteration only passes val
 
 To help with the solution building, let's simulate an array with `["name", "gender"]`.  We will create an iteration to filter just `female`.
 
-[Click here to learn more about data simulation](/docs/tutorial-video/course-1-basics/lesson-3-using-data-sumulation-for-easier-development/)
+[Click here to learn more about data simulation](/docs/tutorial-video/course-basics/lesson-data-sumulation/)
 
 ![Action Conditional Select](/assets/images/action-loop-data-simulation.png)
 
@@ -100,7 +100,7 @@ Below, we have filtered the items with string `female`.
 
 {% include in_line_banner_config.html config_title="Master Iteration (loop) to Create Complex Solutions" config_url="/assets/configs/config-iteration.json" %}
 
-[NEXT >> Lesson 6: Learn How to Work with Databases and APIs](/docs/tutorial-video/course-1-basics/lesson-6-databases/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 6: Learn How to Work with Databases and APIs](/docs/tutorial-video/course-basics/lesson-databases/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 {: .fs-6 .fw-300 }

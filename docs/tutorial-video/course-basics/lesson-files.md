@@ -53,6 +53,6 @@ There are actions to write and append data to the file.
 {% include in_line_banner_config.html config_title="Storing Data in a File" config_url="/assets/configs/config-files.json" %}
 
 
-[NEXT >> Lesson 10: Organization](/docs/tutorial-video/course-1-basics/lesson-10-organization/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 10: Organization](/docs/tutorial-video/course-basics/lesson-rganization/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .fs-6 .fw-300 }

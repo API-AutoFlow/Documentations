@@ -17,9 +17,9 @@ published: true
 1. Reusable Custom Actions
 2. Copy Configuration
 3. Paste Configuration
-3. Import and Export Configuration
-4. Roll Back
-5. Organization
+4. Import and Export Configuration
+5. Roll Back
+6. Organization
 
 ## 1\. Reusable Custom Actions
 
@@ -133,6 +133,6 @@ From the server settings, click the `group name` to delete the group.
 <!-- {% include in_line_banner_config.html config_title="Organization" config_url="/assets/configs/_____.json" %} -->
 
 
-[NEXT >> Lesson 11: Scheduling Flow Execution Using Timers](/docs/tutorial-video/course-1-basics/lesson-11-timers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 11: Scheduling Flow Execution Using Timers](/docs/tutorial-video/course-basics/lesson-timers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .fs-6 .fw-300 }

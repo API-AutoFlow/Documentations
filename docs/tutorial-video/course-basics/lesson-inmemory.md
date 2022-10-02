@@ -75,6 +75,6 @@ You can access environment variables from any action
 
 
 
-[NEXT >> Lesson 9: Storing Data in a File](/docs/tutorial-video/course-1-basics/lesson-9-files/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 9: Storing Data in a File](/docs/tutorial-video/course-basics/lesson-files/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .fs-6 .fw-300 }

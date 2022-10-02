@@ -22,12 +22,12 @@ Talking about building a solution, you have all the resources  [Tutorials](/docs
 
 What we are building is the basic architecture described on the [overview](/docs/getting-started/api-autoflow-overview/) page. A full stack application in most use cases comprises of below three components.
 
-1. [Frontend](/docs/tutorial-video/course-2-solution/lesson-2-frontend/)
-2. [Backend](/docs/tutorial-video/course-1-basics/)
-3. [Database](/docs/tutorial-video/course-2-solution/lesson-3-database/)
+1. [Frontend](/docs/tutorial-video/course-solution/lesson-frontend/)
+2. [Backend](/docs/tutorial-video/course-basics/)
+3. [Database](/docs/tutorial-video/course-solution/lesson-database/)
 
 ![Application Architecture](/assets/images/getting-started-index-application-architecture.jpg)
 
-[NEXT >> Lesson 1: Install and integration the frontend](/docs/tutorial-video/course-2-solution/lesson-2-frontend/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 1: Install and integration the frontend](/docs/tutorial-video/course-solution/lesson-frontend/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 

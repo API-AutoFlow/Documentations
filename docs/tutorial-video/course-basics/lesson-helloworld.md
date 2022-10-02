@@ -64,6 +64,6 @@ Note: dataset action simply sets a value to the solution flow.
 
 {% include in_line_banner_config.html config_title="Hello World!" config_url="/assets/configs/config-helloworld.json" %}
 
-[NEXT >> LESSON 3: Data Simulation](/docs/tutorial-video/course-1-basics/lesson-3-data-simulation/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> LESSON 3: Data Simulation](/docs/tutorial-video/course-basics/lesson-data-simulation/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .fs-6 .fw-300 }

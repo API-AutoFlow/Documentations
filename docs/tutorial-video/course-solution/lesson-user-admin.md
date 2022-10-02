@@ -270,4 +270,4 @@ export default {
 {% include in_line_banner_config.html config_title="Organization" config_url="/assets/configs/_____.json" %}
 
 
-[NEXT >> Lesson 11: Scheduling Flow Execution Using Timers](/docs/tutorial-video/course-1-basics/lesson-11-timers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 11: Scheduling Flow Execution Using Timers](/docs/tutorial-video/course-basics/lesson-timers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

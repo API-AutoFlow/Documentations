@@ -48,6 +48,6 @@ There are use cases where timers need to be stopped and started based on a condi
 {% include in_line_banner_config.html config_title="Scheduling Flow Execution Using Timers" config_url="/assets/configs/config-timer.json" %}
 
 
-[NEXT >> Lesson 12: Debugging Using Logs](/docs/tutorial-video/course-1-basics/lesson-12-debug/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Lesson 12: Debugging Using Logs](/docs/tutorial-video/course-basics/lesson-debug/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 {: .fs-6 .fw-300 }

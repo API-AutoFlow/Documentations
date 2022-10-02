@@ -59,7 +59,7 @@ The easiest way to understand API AutoFlow is to use a _factory_ as a comparison
 * __Simulation__: You can think of it as the sample raw material
 * __Flow Transaction Data__: You can think of it as the raw material that passes through the process line.  As changes are made by the actions, the flow transaction data would change as it goes down the flow.
 
-[NEXT >> LESSON 2: Navigation and Hello World!](/docs/tutorial-video/course-1-basics/lesson-2-helloworld/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> LESSON 2: Navigation and Hello World!](/docs/tutorial-video/course-basics/lesson-helloworld/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 {: .fs-6 .fw-300 }

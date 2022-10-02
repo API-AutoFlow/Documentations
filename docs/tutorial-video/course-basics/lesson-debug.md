@@ -44,7 +44,7 @@ Note that the data printed is what the [data/log](/docs/internal-actions/data/lo
 
 {% include in_line_banner_config.html config_title="Debugging Using Logs" config_url="/assets/configs/config-debug.json" %}
 
-[NEXT >> Course 2: Advanced](/docs/tutorial-video/course-2-creating-solutions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[NEXT >> Course 2: Advanced](/docs/tutorial-video/course-solutions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 {: .fs-6 .fw-300 }

@@ -13,7 +13,7 @@ published: true
 
 Follow the database lesson below on how to work with the database.
 
-[Course 1 Lesson 6: Learn How to Work with Databases](/docs/tutorial-video/course-1-basics/lesson-6-databases/)
+[Course 1 Lesson 6: Learn How to Work with Databases](/docs/tutorial-video/course-basics/lesson-databases/)
 
 ![Apply database action](/assets/images/database-tutorial.png)
 

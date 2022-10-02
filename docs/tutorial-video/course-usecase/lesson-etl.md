@@ -15,7 +15,7 @@ grand_parent: Tutorials - Video
 <!-- 1. Go to Interactor website to access API AutoFlow
 2. Go through some of the definitions -->
 
-<!-- [NEXT >> LESSON 2: Navigation and Hello World!](/docs/tutorial-video/course-1-basics/lesson-2-helloworld/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } -->
+<!-- [NEXT >> LESSON 2: Navigation and Hello World!](/docs/tutorial-video/course-basics/lesson-helloworld/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } -->
 
 
 {: .fs-6 .fw-300 }
