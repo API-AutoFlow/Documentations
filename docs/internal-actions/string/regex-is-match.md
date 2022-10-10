@@ -4,7 +4,7 @@ title: Regex is Match
 parent: String
 grand_parent: Internal Actions
 ---
-#String Regex is Match
+# String Regex is Match
 Checks if string matches the given regular expression.
 
 ## Properties

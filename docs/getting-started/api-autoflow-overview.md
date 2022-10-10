@@ -25,7 +25,6 @@ When you first open up API AutoFlow, you'll see a bunch of colorful icons arrang
 
 
 # It's all about APIs
-# It's all about data
 
 
 ## Overall Application Architecture?

@@ -17,5 +17,8 @@ Content will be updated soon.
 
 ![Be the First](/assets/images/blank-page.gif)
 
+<div>
+  <a href="http://www.interactor.com:2498/docs-rate-set?title=2&score=2" alt="Good">Good</a>
+</div>
 
 {: .fs-6 .fw-300 }

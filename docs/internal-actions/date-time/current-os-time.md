@@ -4,8 +4,9 @@ title: Current OS Time
 parent: Date Time
 grand_parent: Internal Actions
 ---
-# Current Day
-Returns the current day in integer.  Monday `1` ~ Sunday `7`
+
+# Current OS Time
+Returns the current OS time
 
 ## Output
 ```yaml

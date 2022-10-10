@@ -24,7 +24,7 @@ With: The second time to check against
 Output-location: The location to store the output
 ```
 
-Example
+## Example
 date: `12:03:12`
 
 with: `11:23:34`

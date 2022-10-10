@@ -4,4 +4,10 @@ title: Current Day
 parent: Date Time
 grand_parent: Internal Actions
 ---
-{: .fs-6 .fw-300 }
+# Current Day
+Returns the current day in integer.  Monday `1` ~ Sunday `7`
+
+## Output
+```yaml
+Output-location: The location to store the timestamp
+```

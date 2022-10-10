@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sort
+title: Sort by Path
 parent: Array
 grand_parent: Internal Actions
 ---
