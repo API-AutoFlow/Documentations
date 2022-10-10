@@ -8,7 +8,7 @@ published: true
 <h6>Prerequisites: Things you need to know before using API AutoFlow</h6>
 <h1 style="margin-top:0">Lesson 1: What is API?</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7A8xfryMh6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tTzquDfhkQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Creating your own API and integrating other people’s APIs are not hard
 
