@@ -9,7 +9,7 @@ grand_parent: Tutorials - Video
 4 min read · 16 min video
 <h1 style="margin-top:0">Lesson 2: Navigation and Hello World!</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nZ_XeHXl2eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z2FK4f59DhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lesson Outline
 1. Overall how to navigate and use the product
