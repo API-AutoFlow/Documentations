@@ -19,7 +19,7 @@ The good news is that loops are relatively easy to understand. There are just a 
 
 So, if you want to apply the same action to each item on the list, it helps to have all the items to be in the same format (a.k.a structured data).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJ7txup6d1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kE3yWUW_060" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lesson Outline
 

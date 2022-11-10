@@ -10,7 +10,7 @@ published: true
 2 min read · 4 min video
 <h1 style="margin-top:0">Lesson 7: Making API Calls</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_xAvutQcDBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I9adsQtrWDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lesson Outline
 

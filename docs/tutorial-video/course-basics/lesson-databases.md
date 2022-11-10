@@ -13,7 +13,7 @@ published: true
 Now with a good understanding of [iteration](/docs/internal-actions/iteration/), you can start working with the database.
 A database returns a list of records in an array format.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u4B_KeqIrY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DaA8mubcoJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Prerequisite**: 
 

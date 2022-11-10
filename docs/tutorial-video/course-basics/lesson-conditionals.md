@@ -14,7 +14,7 @@ Now that you have a good grasp of the fundamentals, let's look at how to create 
 
 The conditionals are statements like **IF, Match, the Switch** that perform a set of actions when the conditions are met.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6cgOFMzWhfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m2-I7kHmBVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you had any interest in technology, I am sure you have come across the **"IF"** condition (no pun intended).
 

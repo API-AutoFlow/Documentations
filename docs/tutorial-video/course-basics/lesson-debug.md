@@ -10,7 +10,7 @@ published: true
 2 min read · 6 min video
 <h1 style="margin-top:0">Lesson 12: Debugging Using Logs</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YQWm1RBIlkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RTvW8qRFMII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lesson Outline
 
